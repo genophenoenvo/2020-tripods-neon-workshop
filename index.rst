@@ -6,8 +6,10 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-**TUTORIAL NAME**
-=================
+**CyVerse NEON Airborne Observation Platform Workshop**
+=======================================================
+
+Date: 2020-11-05 
 
 ..
     #### Comment: Use short, imperative titles e.g. Upload and share data, uploading and
@@ -15,6 +17,12 @@
 
 Goal
 ----
+
+The ultimate goal of our workshop is to allow users to leave with an understanding of the NEON Data API and working with NEON AOP data in their preferred Integrated Development Environment (IDE) in the cloud.
+
+Other goals include using CyVerse to manage large and very large analyses
+
+Demonstrating that they are capable of doing so requires that we provide examples of (1) containers for running geospatial software environments, (2) notebook examples of geospatial data analyses  & (3) documentation for self-paced asynchonous learning and in-person live coding.
 
 ..
     #### Comment: Avoid covering upstream and downstream steps that are not explicitly and
@@ -35,9 +43,9 @@ Who to contact if this guide needs fixing. You can also email
     * - Maintainer
       - Institution
       - Contact
-    * - Your Name
+    * - Tyson Lee Swetnam
       - CyVerse / UA
-      - Yourname@email.com
+      - tswetnam@arizona.edu
 ----
 
 .. toctree::
@@ -45,7 +53,6 @@ Who to contact if this guide needs fixing. You can also email
 
 	Tutorial home <self>
 	Step One <step1.rst>
-	Delete this example guide page <example_directives_delete.rst>
 ..
 	#### Comment:This tutorial can have multiple pages. The table of contents assumes
 	you have an additional page called 'Step One' with content located in 'step1.rst'
@@ -71,9 +78,6 @@ Downloads, access, and services
       - Link/Download
     * - CyVerse account
       - You will need a CyVerse account to complete this exercise
-      - |CyVerse User Portal|
-    * - Atmosphere access
-      - You must have access to Atmosphere
       - |CyVerse User Portal|
     * - Cyberduck
       - Standalone software for upload/download to Data Store
@@ -102,24 +106,7 @@ Platform(s)
       - Web/Point-and-click
       - |Discovery Environment|
       - |Discovery Environment Guide|
-    * - Atmosphere
-      - Command line (ssh) and/or Desktop (VNC)
-      - |Atmosphere|
-      - |Atmosphere Guide|
-    * - BisQue
-      - Web/Point-and-click and/or Command-line (API)
-      - |BisQue|
-      - |BisQue Manual|
-      - (See Manual)
-    * - DNA Subway
-      - Web/Point-and-click
-      - |DNA Subway|
-      - |DNA Subway Guide|
-    * - SciApps
-      - Command-line (API)
-      - |SciApps|
-      - |SciApps Guide|
-
+    
 Application(s) used
 ~~~~~~~~~~~~~~~~~~~
 ..
@@ -133,32 +120,23 @@ Application(s) used
     * - App name
       - Version
       - Description
-      - App link
-      - Notes/other links
-    * - Muscle
-      - 3.8.31
-      - Multiple sequence aligner
-      -	|CyVerse_launch|
-      - |Original App Documentation|
-
-
-**Atmosphere Image(s):**
-
-.. list-table::
-    :header-rows: 1
-
-    * - Image name
-      - Version
-      - Description
-      - Link
-      - Notes/other links
-    * - CyVerse CentOS 6.8 GUI Base
-      - 1.0
-      - base image CentOS 6.8 with GNOME GUI
-      - |CyVerse_launch|
-      -
-
-
+      - Quick Launch
+      - GitHub repositories
+    * - Workspace Geospatial
+      - ``latest``
+      - All the Things
+      -	|workspace-geospatial-latest|
+      - |CyVerse Workspace GitHub|
+    * - RStudio 
+      - ``3.6.3``
+      - Rocker Project RStudio with geospatial applications pre-installed
+      - |rstudio-geospatial-3.6.3|
+      - |CyVerse R Studio GitHub|
+    * - JupyterLab 
+      - ``2.2.0``
+      - JupyterLab SciPy with geospatial applications pre-installed
+      - |jupyter-scipy-latest|
+      - |CyVerse JupyterLab GitHub|
 
 Input and example data
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -175,10 +153,10 @@ Input and example data
       - Format
       - Preparation/Notes
       - Example Data
-    * -
-      -
-      -
-      -
+    * - |NEON API|
+      - various
+      - Use in browser or R Studio Shiny App
+      - |NEON Shiny Browser|
 
 ----
 
@@ -236,12 +214,39 @@ Input and example data
 
       <a href="REPLACE_THIS_WITH_URL" target="blank">Replace_with_text</a>
 
+.. |workspace-geospatial-latest| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
+.. _workspace-geospatial-latest: 
 
-.. |Github Repo Link|  raw:: html
+.. |CyVerse Workspace GitHub|  raw:: html
+ 
+   <a href=" " target="blank">CyVerse Workspace GitHub</a>
+  
+.. |rstudio-geospatial-3.6.3| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
+.. _rstudio-geospatial-3.6.3: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=e7383172-dafd-42a2-b539-a67a9b65425e&app-id=6943b4f2-b663-11ea-92c5-008cfa5ae621
 
-   <a href="FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX" target="blank">Github Repo Link</a>
+.. |CyVerse RStudio GitHub|  raw:: html
 
-.. |Download Cyberduck| raw:: html
+   <a href="https://github.com/cyverse-vice/rstudio-geospatial" target="blank">CyVerse RStudio GitHub</a>
+   
+  
+.. |CyVerse JupyterLab GitHub|  raw:: html
+
+   <a href=" " target="blank">CyVerse JupyterLab GitHub</a>
+
+.. |jupyter-scipy-latest| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
+.. _jupyter-scipy-latest: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=91c72a5d-0ce9-484f-a1f1-feba4cab75a5&app-id=bc93504c-d584-11e9-8413-008cfa5ae621
+
+   
+
+.. |NEON API|  raw:: html
+
+   <a href="https://data.neonscience.org/data-products/explore" target="blank">NEON API</a>
+
+.. |NEON Shiny Browser|  raw:: html
+
+   <a href="https://github.com/cyverse-gis/neon-shiny-browser" target="blank">NEON Shiny Browser</a>
+
+.. |Download Cyberduck|  raw:: html
 
    <a href="https://cyberduck.io/" target="blank">Download Cyberduck</a>
 
