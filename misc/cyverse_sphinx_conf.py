@@ -10,9 +10,9 @@ extensions = [
     'sphinx.ext.autodoc',
 ]
 
-project = 'YOUR PROJECT NAME HERE as topic_tutorial'
+project = '2020-neon-aop-workshop'
 copyright = '2020, CyVerse'
-author = 'CyVerse'
+author = 'TL Swetnam <tswetnam@cyverse.org>'
 version = '2.0'
 release = '2.0'
 
