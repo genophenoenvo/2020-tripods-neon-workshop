@@ -234,9 +234,7 @@ Input and example data
    <a href=" " target="blank">CyVerse JupyterLab GitHub</a>
 
 .. |jupyter-scipy-latest| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
-.. _jupyter-scipy-latest: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=91c72a5d-0ce9-484f-a1f1-feba4cab75a5&app-id=bc93504c-d584-11e9-8413-008cfa5ae621
-
-   
+.. _jupyter-scipy-latest: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=91c72a5d-0ce9-484f-a1f1-feba4cab75a5&app-id=bc93504c-d584-11e9-8413-008cfa5ae621 
 
 .. |NEON API|  raw:: html
 
@@ -250,6 +248,6 @@ Input and example data
 
    <a href="https://cyberduck.io/" target="blank">Download Cyberduck</a>
 
-.. |Original App Documentation|  raw:: html
+.. |Github Repo Link|  raw:: html
 
-   <a href="http://www.drive5.com/muscle/manual/" target="blank">Original App Documentation</a>
+   <a href="https://github.com/tyson-swetnam/2020-neon-aop-workshop" target="blank">Github Repo Link</a>
