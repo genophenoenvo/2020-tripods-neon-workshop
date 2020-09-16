@@ -122,9 +122,9 @@ Application(s) used
       - Description
       - Quick Launch
       - GitHub repositories
-    * - Workspace Geospatial
+    * - Workspace 
       - ``latest``
-      - All the Things
+      - All the Things Geospatial
       -	|workspace-geospatial-latest|
       - |CyVerse Workspace GitHub|
     * - RStudio 
