@@ -9,7 +9,7 @@
 **CyVerse NEON Airborne Observation Platform Workshop**
 =======================================================
 
-Date: 2020-11-05 
+**Dates: November 5th, 6th, and 7th (optional) 2020**
 
 ..
     #### Comment: Use short, imperative titles e.g. Upload and share data, uploading and
@@ -52,7 +52,11 @@ Who to contact if this guide needs fixing. You can also email
 	:maxdepth: 2
 
 	Home <self>
-	Using CyVerse <step1.rst>
+  Agenda <agenda.rst>
+	Discovery Environment <step1.rst>
+  Your Workspace <step2.rst>
+  NEON Shiny App <step3.rst>
+  Manage your cloud data <step4.rst>
 ..
 	#### Comment:This tutorial can have multiple pages. The table of contents assumes
 	you have an additional page called 'Step One' with content located in 'step1.rst'
@@ -125,17 +129,17 @@ Application(s) used
     * - Workspace 
       - ``latest``
       - All the Things Geospatial
-      -	|workspace-geospatial-latest|
+      -	|workspace-geospatial-latest|_
       - |CyVerse Workspace GitHub|
     * - RStudio 
       - ``3.6.3``
       - Rocker Project RStudio with geospatial applications pre-installed
-      - |rstudio-geospatial-3.6.3|
+      - |rstudio-geospatial-3.6.3|_
       - |CyVerse R Studio GitHub|
     * - JupyterLab 
       - ``2.2.0``
       - JupyterLab SciPy with geospatial applications pre-installed
-      - |jupyter-scipy-latest|
+      - |jupyter-scipy-latest|_
       - |CyVerse JupyterLab GitHub|
 
 Input and example data
@@ -215,7 +219,7 @@ Input and example data
       <a href="REPLACE_THIS_WITH_URL" target="blank">Replace_with_text</a>
 
 .. |workspace-geospatial-latest| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
-.. _workspace-geospatial-latest: 
+.. _workspace-geospatial-latest: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=66f5a2d6-04c3-4346-8804-fab350e2f9b8&app-id=55f4f8b0-f552-11ea-80fa-008cfa5ae621
 
 .. |CyVerse Workspace GitHub|  raw:: html
  
@@ -224,7 +228,7 @@ Input and example data
 .. |rstudio-geospatial-3.6.3| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
 .. _rstudio-geospatial-3.6.3: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=e7383172-dafd-42a2-b539-a67a9b65425e&app-id=6943b4f2-b663-11ea-92c5-008cfa5ae621
 
-.. |CyVerse RStudio GitHub|  raw:: html
+.. |CyVerse R Studio GitHub|  raw:: html
 
    <a href="https://github.com/cyverse-vice/rstudio-geospatial" target="blank">CyVerse RStudio GitHub</a>
    

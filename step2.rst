@@ -7,72 +7,134 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-Section Name
--------------
+Your Workspace
+--------------
 
 **Description:**
+
+We have already integrated a couple of Docker Containers into the CyVerse Discovery Environment, and made them "Public" for everyone to use.
+
+We're going to walk through the steps of starting an interactive analysis, using it, and shutting it down.
 
 ..
 	#### Comment: short text description goes here ####
 
 ----
 
-**Input Data:**
 
-.. list-table::
-    :header-rows: 1
+*Starting a VICE app*
+~~~~~~~~~~~~~~~~~~~~~
 
-    * - Input
-      - Description
-      - Example
-    * -
-      -
-      -
+**1.** Log into the Discovery Environment `https://de.cyverse.org <https://de.cyverse.org>`_
 
-*Descriptive Steps*
-~~~~~~~~~~~~~~~~~~~
+**2a.** Click one of our quick launch buttons:
 
-.. 	#### Comment: Step title should be descriptive (i.e. Cleaning Read data) ###
+   - Workspace: |workspace-geospatial-latest|_
+   - RStudio: |rstudio-geospatial-3.6.3|_
+   
+**2b.** Search using the 'Apps' window search bar.
 
+    Search for "workspace-geospatial" or "rstudio geospatial" and see what comes up.
 
-1. Replace the text below with your own
+    Select the App and a new window should open.
 
-2. Use the image src in this link to link to
-
-   - A DE App: |CyVerse_launch|
-   - An Atmosphere image: |CyVerse_launch|
-
-3. Click :guilabel:`&Cancel` to continue is how you can show a button
-
-4. Tell the user to choose an appropriate value for a setting
-
-   .. admonition:: sample-data
-
-     Tell them if they are following with our sample data exactly
-     what value to choose
+**2c.** Under "My Apps" click on the "My Communities" and "NEON" Group
 
 
-..
-	#### Comment: Suggested style guide:
-	1. Steps begin with a verb or preposition: Click on... OR Under the "Results Menu"
-	2. Locations of files listed parenthetically, separated by carets, ultimate object in bold
-	(Username > analyses > *output*)
-	3. Buttons and/or keywords in bold: Click on **Apps** OR select **Arabidopsis**
-	4. Primary menu titles in double quotes: Under "Input" choose...
-	5. Secondary menu titles or headers in single quotes: For the 'Select Input' option choose...
-	####
+**3a.** In the App Window you have a few options.
 
-**Output/Results**
+   ``Analysis Name`` - you can change the name of the analysis if you like, the default name is typically ``<the-app-name>_analysis1``
 
-.. list-table::
-    :header-rows: 1
+   Your analysis will run, and when it completes, it will write any data that you have in the WORKING DIRECTORY of the container back to the Data Store in your Analyses folder, e.g. ``/iplant/home/<username>/analyses/<the-app-name>_analysis1-<DATE-TIME-of-job-starting>``
 
-    * - Output
-      - Description
-      - Example
-    * -
-      -
-      -
+**3b.** The second section is ``Input Data`` and has options for adding (1) a folder, (2) a single file, or (3) multiple files. 
+
+   For our use case, you do not need to add any data before launching the app. 
+
+**3c.** The third section is ``Resource Requirements``, again you can leave the default settings, or you can modify them.
+
+   You can set the ``Minimum CPU`` to the minimum number of cores your app requires. If you do not select anything, the app will still be able to use multiple cores on the shared node on which it is deployed.
+
+   You can set the ``Minimum RAM`` to the minimum number of GB of RAM you think your app requires. 
+
+   You can set the ``Minimum Disk Space`` to the minimum amount of scratch space you think your data will need.
+
+**3d.** After you've set the analysis name, input data, and resource requirements, click ``Launch Analysis``
+
+    Watch closely, you'll see a notification at the top of your screen and in the Bell icon in the upper right.
+
+**4a.** Open the Analyses tab to view your running analysis.
+
+    Look for your App Name. See the square icon with an arrow pointed up to the right? Click on that icon and a new tab will open.
+
+**4b.** Alternately, click the Bell icon in the upper right to see your notifications, you should see 'Access your running analysis here.' as an option. Click on that link and a new tab will open.
+
+**5.** Having clicked on either of the hyperlinked icons in Step 4 should result in a new tab opening in your browser.
+
+   Your Discovery Environment Browser tab should still be open.
+
+   The new URL for the instance has changed from ``https://de.cyverse.org/de/`` to something like ``https://af7664685.cyverse.run/``.
+
+   This is a new instance is running a Virtual Machine for you on CyVerse cloud.
+
+   You can now begin working in your running instance. 
+
+**6.** Return to your Discovery Environment Browser tab.
+
+   On the right side of the Analysis window there is an icon with three vertical dots. Click on that icon.
+
+   You have multiple options available here:
+
+   ``Go to output folder`` will take you to the output folder in yout ``/analyses`` Data store path. This output folder will not exist until AFTER you end the running analysis.
+
+   ``View Logs`` will show you the echo of the container job starting -- this is very useful for debugging containers that are not acting appropriately.
+
+   ``View Parameters`` will show you the parameters you set when launched -- good for reviewing stopped containers.
+
+   ``Relaunch`` -- if you have stopped your analysis, you can re-launch it with the same parameters as before. Useful for coming back to a second or third day.
+
+   ``View Analysis Info`` will show you the status and Analysis ID -- this is useful when asking for support from the CyVerse team.
+
+   ``Share with Collaborators`` you can share your running analysis with other CyVerse users or team members. 
+
+   ``Complete and Save Outputs`` **DANGER Zone** -- when you click this, your job will be stopped and your analysis results will be copied to the ``/analyses`` folder
+
+   ``Cancel`` **DANGER Zone** -- when you click this, your job will be stopped and your results will not be written back to the data store.
+
+   ``Delete`` -- this option is only available after you have stopped your App and want to remove the information from your Analysis window
+
+   ``Rename`` You can rename your analysis
+
+   ``Update Comments`` You can update your comments about your analysis. 
+
+*Stopping a VICE app*
+~~~~~~~~~~~~~~~~~~~~~
+
+**1.** After you've finished working on your instance, it is conscientious to shut down your analysis and free up share resources for other researchers. 
+
+**2.** Make sure that your data that you've copied into the running Analysis have been moved to another storage location on the internet, or back into your data store in another file path.
+
+**3.** Analysis data that are in the single working directory "WORKDIR" of the container that the App has set in its configuration file will be saved back to the Data Store in your ``/iplant/home/<username>/analyses/<the-app-name>_analysis1-<DATE-TIME-of-job-starting>`` folder.
+
+**4.** When the job ends, any data that are in other ``/temp`` or ``/home/username`` folders in the running App WILL NOT BE SAVED or written back to the Data Store.
+
+**5.** Click on the icon with the three vertical dots or select the app with the check box and click on the ``Analyses`` buton in the upper left of the Analyses window.
+
+   ``Complete and Save Outputs`` **DANGER Zone** -- when you click this, your job will be stopped and your analysis results will be copied to the ``/analyses`` folder
+
+   ``Cancel`` **DANGER Zone** -- when you click this, your job will be stopped and your results will not be written back to the data store.
+
+**6.** Depending on how much data you have in the WORKDIR folder of the running App, the analysis may take a few minutes to complete and shut down.
+
+**7.** When the Analysis completes, you will now have the option to Delete the finished job. 
+
+
+   .. admonition:: input data
+
+     When you launch a new VICE app, you can add data to it before it is launched. If you do this, it will slow down the launch, as the service must copy the data from the data store into your new instance before it becomes available. 
+     
+     A faster option is to start the container without the data, and then copy the data into the running container later using WebDav, iCommands, or file system mount.
+
 
 
 ----
@@ -123,6 +185,12 @@ Section Name
    .. |Substitution| raw:: html # Place this anywhere in the text you want a hyperlink
 
       <a href="REPLACE_THIS_WITH_URL" target="blank">Replace_with_text</a>
+
+.. |workspace-geospatial-latest| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
+.. _workspace-geospatial-latest: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=66f5a2d6-04c3-4346-8804-fab350e2f9b8&app-id=55f4f8b0-f552-11ea-80fa-008cfa5ae621
+
+.. |rstudio-geospatial-3.6.3| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
+.. _rstudio-geospatial-3.6.3: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=e7383172-dafd-42a2-b539-a67a9b65425e&app-id=6943b4f2-b663-11ea-92c5-008cfa5ae621
 
 
 .. |Github Repo Link|  raw:: html

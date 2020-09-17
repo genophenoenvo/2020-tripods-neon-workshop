@@ -117,54 +117,28 @@ After you have created your CyVerse account and been granted access to the visua
      Uploading data to CyVerse is dependent upon your local internet service provider. 
      
      
-*Starting a VICE app*
-~~~~~~~~~~~~~~~~~~~~~
+*The App Catalog*
+~~~~~~~~~~~~~~~~~
 
-1. Log into the Discovery Environment `https://de.cyverse.org <https://de.cyverse.org>`_
+|Apps and Tool Guide|
 
-2a. Click one of our quick launch buttons:
+If you signed up for the workshop, you will have already been added to the NEON Community group.  We have added a couple of apps that have all of the tools needed for the workshop.
 
-   - Workspace: |workspace-geospatial-latest|
-   - RStudio: |rstudio-geospatial-3.6.3|
-   
-2b. Search using the 'Apps' window search bar.
+These Apps are yours to use! You can install new packages and software into them, but if that becomes too time consuming, consider learning about how to integrate your own Tools and Apps using the Guide link given above. 
 
-    Search for "workspace geospatial" or "rstudio geospatial" and see what comes up
+*TERMINOLOGY*
++++++++++++++
 
-3. Open the Analyses field to view your running instance.
+**App** -- a graphical interface for starting a "Tool" here in the Discovery Environment. The App window can be customized to use any set of conditionals, parameters, resource requirements, input data, or output folders needed to do your analysis.
 
-   .. admonition:: input data
-
-     When you launch a new VICE app, you can add data to it before it is launched. If you do this, it will slow down the launch, as the service must copy the data from the data store into your new instance before it becomes available. 
-     
-     A faster option is to start the container without the data, and then copy the data into the running container later using WebDav, iCommands, or file system mount.
-
-..
-	#### Comment: Suggested style guide:
-	1. Steps begin with a verb or preposition: Click on... OR Under the "Results Menu"
-	2. Locations of files listed parenthetically, separated by carets, ultimate object in bold
-	(Username > analyses > *output*)
-	3. Buttons and/or keywords in bold: Click on **Apps** OR select **Arabidopsis**
-	4. Primary menu titles in double quotes: Under "Input" choose...
-	5. Secondary menu titles or headers in single quotes: For the 'Select Input' option choose...
-	####
-
-**Output/Results**
-
-.. list-table::
-    :header-rows: 1
-
-    * - Output
-      - Description
-      - Example
-    * -
-      -
-      -
+**Tool** -- a "Tool" is a Docker container which has been added to the Discovery Environment tool manager. It should be public on the Docker Hub or another Docker Registry (e.g. quay.io, NVIDIA NGC, etc.). After a tool has been added to the Discovery Environment using the "Manage Tools" feature in the Apps window, a DE App can be created for it. 
 
 
-----
+1. Click the **Apps** button
 
-**Description of output and results**
+2. Under **Categories** and "My Apps" and "My Communities" you should see a group called NEON
+
+3. In the group are a couple of shared apps.
 
 
 ----
@@ -223,6 +197,11 @@ After you have created your CyVerse account and been granted access to the visua
 
    <a href="https://learning.cyverse.org/projects/data_store_guide/en/latest/step1.html" target="blank">Cyberduck Profile</a>
    
+
+.. |Apps and Tool Guide| raw:: html
+
+   <a href="https://learning.cyverse.org/en/latest/tools_and_apps.html" target="blank">Apps and Tool Guide</a>
+
 .. |workspace-geospatial-latest| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
 .. _workspace-geospatial-latest: 
 

@@ -42,7 +42,8 @@
   <link rel="stylesheet" href="_static/question-answer.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="CyVerse NEON Airborne Observation Platform Workshop" href="index.html" /> 
+    <link rel="next" title="Your Workspace" href="step2.html" />
+    <link rel="prev" title="Agenda" href="agenda.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -91,12 +92,19 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="index.html">Tutorial home</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Step One</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="index.html">      Home</a></li>
+<li class="toctree-l1"><a class="reference internal" href="agenda.html">Agenda</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">      Discovery Environment</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#the-data-store"><em>The Data Store</em></a></li>
-<li class="toctree-l2"><a class="reference internal" href="#starting-a-vice-app"><em>Starting a VICE app</em></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#the-app-catalog"><em>The App Catalog</em></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#terminology"><em>TERMINOLOGY</em></a></li>
 </ul>
 </li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="step2.html">Your Workspace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="step3.html">NEON Shiny App</a></li>
+<li class="toctree-l1"><a class="reference internal" href="step4.html">Manage your cloud data</a></li>
 </ul>
 
             
@@ -238,53 +246,20 @@
 </li>
 </ol>
 </div>
-<div class="section" id="starting-a-vice-app">
-<h2><em>Starting a VICE app</em><a class="headerlink" href="#starting-a-vice-app" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="the-app-catalog">
+<h2><em>The App Catalog</em><a class="headerlink" href="#the-app-catalog" title="Permalink to this headline">¶</a></h2>
+<p><a href="https://learning.cyverse.org/en/latest/tools_and_apps.html" target="blank">Apps and Tool Guide</a></p>
+<p>If you signed up for the workshop, you will have already been added to the NEON Community group.  We have added a couple of apps that have all of the tools needed for the workshop.</p>
+<p>These Apps are yours to use! You can install new packages and software into them, but if that becomes too time consuming, consider learning about how to integrate your own Tools and Apps using the Guide link given above.</p>
+<div class="section" id="terminology">
+<h3><em>TERMINOLOGY</em><a class="headerlink" href="#terminology" title="Permalink to this headline">¶</a></h3>
+<p><strong>App</strong> – a graphical interface for starting a “Tool” here in the Discovery Environment. The App window can be customized to use any set of conditionals, parameters, resource requirements, input data, or output folders needed to do your analysis.</p>
+<p><strong>Tool</strong> – a “Tool” is a Docker container which has been added to the Discovery Environment tool manager. It should be public on the Docker Hub or another Docker Registry (e.g. quay.io, NVIDIA NGC, etc.). After a tool has been added to the Discovery Environment using the “Manage Tools” feature in the Apps window, a DE App can be created for it.</p>
 <ol class="arabic simple">
-<li><p>Log into the Discovery Environment <a class="reference external" href="https://de.cyverse.org">https://de.cyverse.org</a></p></li>
+<li><p>Click the <strong>Apps</strong> button</p></li>
+<li><p>Under <strong>Categories</strong> and “My Apps” and “My Communities” you should see a group called NEON</p></li>
+<li><p>In the group are a couple of shared apps.</p></li>
 </ol>
-<p>2a. Click one of our quick launch buttons:</p>
-<blockquote>
-<div><ul class="simple">
-<li><p>Workspace: <img alt="workspace-geospatial-latest" src="https://de.cyverse.org/Powered-By-CyVerse-blue.svg" /></p></li>
-<li><p>RStudio: <img alt="rstudio-geospatial-3.6.3" src="https://de.cyverse.org/Powered-By-CyVerse-blue.svg" /></p></li>
-</ul>
-</div></blockquote>
-<p>2b. Search using the ‘Apps’ window search bar.</p>
-<blockquote>
-<div><p>Search for “workspace geospatial” or “rstudio geospatial” and see what comes up</p>
-</div></blockquote>
-<ol class="arabic" start="3">
-<li><p>Open the Analyses field to view your running instance.</p>
-<div class="admonition-input-data admonition">
-<p class="admonition-title">input data</p>
-<p>When you launch a new VICE app, you can add data to it before it is launched. If you do this, it will slow down the launch, as the service must copy the data from the data store into your new instance before it becomes available.</p>
-<p>A faster option is to start the container without the data, and then copy the data into the running container later using WebDav, iCommands, or file system mount.</p>
-</div>
-</li>
-</ol>
-<p><strong>Output/Results</strong></p>
-<table class="docutils align-default">
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="row-odd"><th class="head"><p>Output</p></th>
-<th class="head"><p>Description</p></th>
-<th class="head"><p>Example</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<hr class="docutils" />
-<p><strong>Description of output and results</strong></p>
 <hr class="docutils" />
 <p><strong>Fix or improve this documentation</strong></p>
 <ul class="simple">
@@ -301,6 +276,7 @@ click <a class="reference internal" href="_images/intercom.png"><img alt="Interc
 <a class="reference external" href="http://learning.cyverse.org/">Learning Center Home</a></p>
 </div>
 </div>
+</div>
 
 
            </div>
@@ -310,8 +286,10 @@ click <a class="reference internal" href="_images/intercom.png"><img alt="Interc
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
+        <a href="step2.html" class="btn btn-neutral float-right" title="Your Workspace" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
-        <a href="index.html" class="btn btn-neutral float-left" title="CyVerse NEON Airborne Observation Platform Workshop" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+        <a href="agenda.html" class="btn btn-neutral float-left" title="Agenda" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
