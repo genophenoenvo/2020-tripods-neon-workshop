@@ -103,6 +103,7 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="step4.html">Manage your cloud data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="step5.html">Version Control with GitHub</a></li>
 </ul>
 
             
@@ -173,9 +174,11 @@
 <div class="section" id="neon-shiny-app">
 <h1>NEON Shiny App<a class="headerlink" href="#neon-shiny-app" title="Permalink to this headline">¶</a></h1>
 <p><strong>Description:</strong></p>
-<p>Our team wrote our own NEON Shiny App for interfacing with the NEON API in R Studio.</p>
-<p>The app can be run directly from Shiny Apps in a container, or it can be started in RStudio or RStudio-Server. It can be used outside of CyVerse.</p>
-<p>Shiny will attempt to create a new folder called <code class="docutils literal notranslate"><span class="pre">~/NEON_Downloads</span></code> in the home working directory of the R Studio, typically this is set as <code class="docutils literal notranslate"><span class="pre">/home/rstudio/NEON_Downloads</span></code> in our virtual instances. Data that are selected and downloaded will go into this folder.</p>
+<p>The <a class="reference external" href="https://www.neonscience.org/download-explore-neon-data">Download and Explore NEON Data API</a> covered the basics of downloading data directy in R from the <code class="docutils literal notranslate"><span class="pre">neonUtilities</span></code> R package.</p>
+<p>Our team created a NEON Shiny App for interfacing with the NEON API in R Studio in a graphical manner.</p>
+<p>The Shiny app can be launched using <a class="reference external" href="https://hub.docker.com/r/cyversevice/shiny-geospatial/neon-shiny-browser">Docker</a>, in RStudio or an RStudio-Server.</p>
+<p>When started the Shiny app will create a new folder called <code class="docutils literal notranslate"><span class="pre">~/NEON_Downloads</span></code> in the home working directory. For the R Studio instance on CyVerse, this is set as <code class="docutils literal notranslate"><span class="pre">/home/rstudio/NEON_Downloads</span></code>.</p>
+<p>Data that are selected and downloaded go into this folder and are organized using the same ontology as the NEON Data API.</p>
 <div class="section" id="download-the-shiny-app">
 <h2><em>Download the Shiny App</em><a class="headerlink" href="#download-the-shiny-app" title="Permalink to this headline">¶</a></h2>
 <p><strong>1.</strong> Have an instance of RStudio-Server in VICE already started, see <a class="reference external" href="./step2.html">Your Workspace</a> for details.</p>
@@ -192,6 +195,7 @@
 <div class="section" id="starting-the-shiny-app">
 <h2><em>Starting the Shiny App</em><a class="headerlink" href="#starting-the-shiny-app" title="Permalink to this headline">¶</a></h2>
 <p>We are going to run the Shiny app as a background process. This will keep the R Console active and allow us to continue work in the R Studio while the App is running.</p>
+<p><a class="reference internal" href="_images/background_job.gif"><img alt="background_job" src="_images/background_job.gif" style="width: 800px;" /></a></p>
 <p><strong>6.</strong> Select the <code class="docutils literal notranslate"><span class="pre">Jobs</span></code> option in the Console</p>
 <p><strong>7.</strong> Set the working directory as <code class="docutils literal notranslate"><span class="pre">neon-shiny-browser</span></code> and select the <code class="docutils literal notranslate"><span class="pre">background.R</span></code> script.</p>
 <p><strong>8.</strong> Start the Job</p>
@@ -228,6 +232,7 @@ Listening on http://127.0.0.1:5716
 <div class="section" id="downloading-data-via-the-neon-api">
 <h2><em>Downloading Data via the NEON API</em><a class="headerlink" href="#downloading-data-via-the-neon-api" title="Permalink to this headline">¶</a></h2>
 <p><strong>12.</strong> Browse the App and find a dataset that you’re interested in downloading.</p>
+<p><a class="reference internal" href="https://data.cyverse.org/dav-anon/iplant/home/tswetnam/vice_screencaps/neon-shiny.gif"><img alt="neon-shiny" src="https://data.cyverse.org/dav-anon/iplant/home/tswetnam/vice_screencaps/neon-shiny.gif" style="width: 800px;" /></a></p>
 <p><strong>13.</strong> AOP data use a slightly different protocol in the NEON Data API, so make sure to select the AOP data check box when you are ready.</p>
 <p><strong>14.</strong> After you’ve initiated the download, the data will begin being downloaded to the <code class="docutils literal notranslate"><span class="pre">~/NEON_Downloads</span></code> folder.</p>
 <blockquote>

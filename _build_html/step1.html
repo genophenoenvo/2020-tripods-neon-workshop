@@ -105,6 +105,7 @@
 <li class="toctree-l1"><a class="reference internal" href="step2.html">Your Workspace</a></li>
 <li class="toctree-l1"><a class="reference internal" href="step3.html">NEON Shiny App</a></li>
 <li class="toctree-l1"><a class="reference internal" href="step4.html">Manage your cloud data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="step5.html">Version Control with GitHub</a></li>
 </ul>
 
             
@@ -180,15 +181,21 @@
 <div class="section" id="the-data-store">
 <h2><em>The Data Store</em><a class="headerlink" href="#the-data-store" title="Permalink to this headline">¶</a></h2>
 <p><a href="https://learning.cyverse.org/projects/data_store_guide/en/latest/" target="blank">Data Store Guide</a></p>
-<ol class="arabic">
-<li><p>Click the <strong>Data</strong> button</p></li>
-<li><p>Open your personal user name space in the file browser</p>
-<p>Your space has a path in the data store, e.g.</p>
+<ol class="arabic simple">
+<li><p>Click the <a class="reference internal" href="_images/data_icon.png"><img alt="data_button" src="_images/data_icon.png" style="width: 25px; height: 25px;" /></a> icon labeled <strong>Data</strong></p></li>
+<li><p>Open your personal user name space in the file browser</p></li>
+</ol>
+<blockquote>
+<div><p><a class="reference internal" href="_images/data_window.png"><img alt="data_window" src="_images/data_window.png" style="width: 400px;" /></a></p>
+<blockquote>
+<div><p>Your space has a path in the data store, e.g.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">iplant</span><span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">username</span>
 </pre></div>
 </div>
 <p>This is your personal space, it is private to you. You can create new folders and upload or download files.</p>
-</li>
+</div></blockquote>
+</div></blockquote>
+<ol class="arabic" start="3">
 <li><p>Create a new folder called <code class="docutils literal notranslate"><span class="pre">NEON_Downloads</span></code></p>
 <p>The new folder is located at:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">iplant</span><span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">username</span><span class="o">/</span><span class="n">NEON_Downloads</span>
@@ -235,8 +242,10 @@
 <p>The <code class="docutils literal notranslate"><span class="pre">https://data.cyverse.org/dav-anon/</span></code> folder path is public and anonymous read only to anyone on the interent.</p>
 <div class="admonition-where-does-your-data-live admonition">
 <p class="admonition-title">Where does your data live?</p>
-<p>When do you download data from the internet to your local computer, you can work on them, but how do you share them with your team?</p>
-<p>Keeping your data in the cloud makes them more accessible, and mobile.</p>
+<p>When you download data from the internet to your local computer they’re isolated. How do you share them back with your team?</p>
+<p>Many of us use services like Box or Google Drive to hold our files. These services are incredibly useful.</p>
+<p>However, these file sharing platforms were not designed for machine readability and fast access of many (i.e. thousands to millions) of requests by anonymous users or even by trusted users. (<a class="reference external" href="https://suitebriar.com/blog/google-cloud-vs-google-drive">Google Drive vs Google Cloud</a>)</p>
+<p>Conventional file services like FTP (file transfer protocol), function over HTTP and HTTPS. The same is true for Amazon Web Services ‘S3’ storage object buckets. (<a class="reference external" href="https://dzone.com/articles/confused-by-aws-storage-options-s3-ebs-amp-efs-explained">S3 explained</a>)</p>
 </div>
 <div class="admonition-how-to-work-with-your-data-in-cyverse admonition">
 <p class="admonition-title">How to work with your data in CyVerse?</p>
@@ -256,10 +265,16 @@
 <p><strong>App</strong> – a graphical interface for starting a “Tool” here in the Discovery Environment. The App window can be customized to use any set of conditionals, parameters, resource requirements, input data, or output folders needed to do your analysis.</p>
 <p><strong>Tool</strong> – a “Tool” is a Docker container which has been added to the Discovery Environment tool manager. It should be public on the Docker Hub or another Docker Registry (e.g. quay.io, NVIDIA NGC, etc.). After a tool has been added to the Discovery Environment using the “Manage Tools” feature in the Apps window, a DE App can be created for it.</p>
 <ol class="arabic simple">
-<li><p>Click the <strong>Apps</strong> button</p></li>
+<li><p>Click the <a class="reference internal" href="_images/apps_icon.png"><img alt="apps_button" src="_images/apps_icon.png" style="width: 25px; height: 25px;" /></a> icon labeled <strong>Apps</strong></p></li>
 <li><p>Under <strong>Categories</strong> and “My Apps” and “My Communities” you should see a group called NEON</p></li>
-<li><p>In the group are a couple of shared apps.</p></li>
 </ol>
+<p><a class="reference internal" href="_images/neon_my_community.png"><img alt="neon_community" src="_images/neon_my_community.png" style="width: 400px;" /></a></p>
+<ol class="arabic simple" start="3">
+<li><p>In the group are a couple of shared apps with the <a href="#id2"><span class="problematic" id="id3">|beta|</span></a> tag.</p></li>
+</ol>
+<blockquote>
+<div><p>In the next section, we’re going to go over starting one of these apps, and beginning an Analysis, which you can view using the <a class="reference internal" href="_images/analyses_icon.png"><img alt="analyses_button" src="_images/analyses_icon.png" style="width: 25px; height: 25px;" /></a> icon labeled ‘Analyses’</p>
+</div></blockquote>
 <hr class="docutils" />
 <p><strong>Fix or improve this documentation</strong></p>
 <ul class="simple">

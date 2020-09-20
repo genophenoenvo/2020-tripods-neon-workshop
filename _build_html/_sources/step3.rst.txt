@@ -12,11 +12,15 @@ NEON Shiny App
 
 **Description:**
 
-Our team wrote our own NEON Shiny App for interfacing with the NEON API in R Studio.
+The `Download and Explore NEON Data API <https://www.neonscience.org/download-explore-neon-data>`_ covered the basics of downloading data directy in R from the ``neonUtilities`` R package.  
 
-The app can be run directly from Shiny Apps in a container, or it can be started in RStudio or RStudio-Server. It can be used outside of CyVerse. 
+Our team created a NEON Shiny App for interfacing with the NEON API in R Studio in a graphical manner.
 
-Shiny will attempt to create a new folder called ``~/NEON_Downloads`` in the home working directory of the R Studio, typically this is set as ``/home/rstudio/NEON_Downloads`` in our virtual instances. Data that are selected and downloaded will go into this folder. 
+The Shiny app can be launched using `Docker <https://hub.docker.com/r/cyversevice/shiny-geospatial/neon-shiny-browser>`_, in RStudio or an RStudio-Server. 
+
+When started the Shiny app will create a new folder called ``~/NEON_Downloads`` in the home working directory. For the R Studio instance on CyVerse, this is set as ``/home/rstudio/NEON_Downloads``.
+
+Data that are selected and downloaded go into this folder and are organized using the same ontology as the NEON Data API. 
 
 
 *Download the Shiny App*
@@ -42,6 +46,8 @@ Shiny will attempt to create a new folder called ``~/NEON_Downloads`` in the hom
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 We are going to run the Shiny app as a background process. This will keep the R Console active and allow us to continue work in the R Studio while the App is running. 
+
+|background_job|
 
 **6.** Select the ``Jobs`` option in the Console
 
@@ -82,6 +88,8 @@ We are going to run the Shiny app as a background process. This will keep the R 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **12.** Browse the App and find a dataset that you're interested in downloading. 
+
+|neon-shiny|
 
 **13.** AOP data use a slightly different protocol in the NEON Data API, so make sure to select the AOP data check box when you are ready.
 
@@ -153,6 +161,12 @@ We are going to run the Shiny app as a background process. This will keep the R 
    .. |Substitution| raw:: html # Place this anywhere in the text you want a hyperlink
 
       <a href="REPLACE_THIS_WITH_URL" target="blank">Replace_with_text</a>
+
+.. |background_job| image:: ./img/shiny_app/background_job.gif
+    :width: 800
+
+.. |neon-shiny| image:: https://data.cyverse.org/dav-anon/iplant/home/tswetnam/vice_screencaps/neon-shiny.gif
+    :width: 800
 
 
 .. |Github Repo Link|  raw:: html

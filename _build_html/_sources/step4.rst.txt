@@ -89,7 +89,7 @@ First, we need to initiate a connection to the CyVerse iRODS.
 
   You should now see the contents of your personal Data Store
 
-**5.** Upload a single file to the Data Store using the ``iput `` command ``--help`` will show you all of the options 
+**5.** Upload a single file to the Data Store using ``iput``
 
   You need to select the file you want to copy, and the location in the Data Store you want to copy it to.
   
@@ -99,7 +99,7 @@ First, we need to initiate a connection to the CyVerse iRODS.
 
 This command will take a single file ``background.R`` and copy it from the container to the Data Store folder ``/iplant/home/tswetnam/NEON_Downloads/``
 
-The flags ``K``, ``P``, ``v``, and ``f`` are described in the help file. 
+The flags ``K``, ``P``, ``v``, and ``f`` are described in the help file.
 
 **6.** Upload a folder with recursive sub-folders and files
 

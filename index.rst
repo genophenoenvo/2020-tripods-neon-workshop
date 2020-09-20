@@ -57,6 +57,7 @@ Who to contact if this guide needs fixing. You can also email
   Your Workspace <step2.rst>
   NEON Shiny App <step3.rst>
   Manage your cloud data <step4.rst>
+  Version Control with GitHub <step5.rst>
 ..
 	#### Comment:This tutorial can have multiple pages. The table of contents assumes
 	you have an additional page called 'Step One' with content located in 'step1.rst'

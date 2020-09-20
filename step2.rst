@@ -32,9 +32,11 @@ We're going to walk through the steps of starting an interactive analysis, using
    - Workspace: |workspace-geospatial-latest|_
    - RStudio: |rstudio-geospatial-3.6.3|_
    
-**2b.** Search using the 'Apps' window search bar.
+**2b.** Search using the |apps_button| 'Apps' search bar.
 
     Search for "workspace-geospatial" or "rstudio geospatial" and see what comes up.
+  
+  |apps_search|
 
     Select the App and a new window should open.
 
@@ -63,9 +65,11 @@ We're going to walk through the steps of starting an interactive analysis, using
 
     Watch closely, you'll see a notification at the top of your screen and in the Bell icon in the upper right.
 
-**4a.** Open the Analyses tab to view your running analysis.
+**4a.** Open the |analyses_button| icon labeled "Analyses" to view your running analysis.
 
     Look for your App Name. See the square icon with an arrow pointed up to the right? Click on that icon and a new tab will open.
+
+    |analyses_window|
 
 **4b.** Alternately, click the Bell icon in the upper right to see your notifications, you should see 'Access your running analysis here.' as an option. Click on that link and a new tab will open.
 
@@ -81,9 +85,11 @@ We're going to walk through the steps of starting an interactive analysis, using
 
 **6.** Return to your Discovery Environment Browser tab.
 
-   On the right side of the Analysis window there is an icon with three vertical dots. Click on that icon.
+   On the right side of the Analysis window there is an icon |dots| with three vertical dots. Click on that icon.
 
    You have multiple options available here:
+
+   |analyses_options|
 
    ``Go to output folder`` will take you to the output folder in yout ``/analyses`` Data store path. This output folder will not exist until AFTER you end the running analysis.
 
@@ -129,11 +135,13 @@ We're going to walk through the steps of starting an interactive analysis, using
 **7.** When the Analysis completes, you will now have the option to Delete the finished job. 
 
 
-   .. admonition:: input data
+   .. admonition:: Input Data (not required)
 
      When you launch a new VICE app, you can add data to it before it is launched. If you do this, it will slow down the launch, as the service must copy the data from the data store into your new instance before it becomes available. 
      
-     A faster option is to start the container without the data, and then copy the data into the running container later using WebDav, iCommands, or file system mount.
+     A faster option is to start the container without the data, and then copy the data into the running container later using WebDav, iCommands, or a file system mount.
+
+     In the next section, we'll cover working with data in your running instance.
 
 
 
@@ -185,6 +193,27 @@ We're going to walk through the steps of starting an interactive analysis, using
    .. |Substitution| raw:: html # Place this anywhere in the text you want a hyperlink
 
       <a href="REPLACE_THIS_WITH_URL" target="blank">Replace_with_text</a>
+
+.. |analyses_button| image:: ./img/de/analyses_icon.png
+    :width: 25
+    :height: 25
+
+.. |apps_button| image:: ./img/de/apps_icon.png
+    :width: 25
+    :height: 25
+
+.. |dots| image:: ./img/de/dots.png
+    :width: 25
+    :height: 25
+
+.. |apps_search| image:: ./img/de/apps_search.png
+    :width: 400
+
+.. |analyses_window| image:: ./img/de/analyses_window.png
+    :width: 400
+
+.. |analyses_options| image:: ./img/de/analyses_options.png
+    :width: 150
 
 .. |workspace-geospatial-latest| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
 .. _workspace-geospatial-latest: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=66f5a2d6-04c3-4346-8804-fab350e2f9b8&app-id=55f4f8b0-f552-11ea-80fa-008cfa5ae621

@@ -24,9 +24,11 @@ After you have created your CyVerse account and been granted access to the visua
 
 |Data Store Guide|
 
-1. Click the **Data** button
+1. Click the |data_button| icon labeled **Data**  
 
 2. Open your personal user name space in the file browser
+
+  |data_window|
    
    Your space has a path in the data store, e.g.
    
@@ -106,9 +108,13 @@ After you have created your CyVerse account and been granted access to the visua
 
    .. admonition:: Where does your data live?
 
-     When do you download data from the internet to your local computer, you can work on them, but how do you share them with your team?
+     When you download data from the internet to your local computer they're isolated. How do you share them back with your team?
+
+     Many of us use services like Box or Google Drive to hold our files. These services are incredibly useful. 
+
+     However, these file sharing platforms were not designed for machine readability and fast access of many (i.e. thousands to millions) of requests by anonymous users or even by trusted users. (`Google Drive vs Google Cloud <https://suitebriar.com/blog/google-cloud-vs-google-drive>`_)
      
-     Keeping your data in the cloud makes them more accessible, and mobile.
+     Conventional file services like FTP (file transfer protocol), function over HTTP and HTTPS. The same is true for Amazon Web Services 'S3' storage object buckets. (`S3 explained <https://dzone.com/articles/confused-by-aws-storage-options-s3-ebs-amp-efs-explained>`_)
      
    .. admonition:: How to work with your data in CyVerse? 
    
@@ -134,11 +140,16 @@ These Apps are yours to use! You can install new packages and software into them
 **Tool** -- a "Tool" is a Docker container which has been added to the Discovery Environment tool manager. It should be public on the Docker Hub or another Docker Registry (e.g. quay.io, NVIDIA NGC, etc.). After a tool has been added to the Discovery Environment using the "Manage Tools" feature in the Apps window, a DE App can be created for it. 
 
 
-1. Click the **Apps** button
+1. Click the |apps_button| icon labeled **Apps** 
 
 2. Under **Categories** and "My Apps" and "My Communities" you should see a group called NEON
 
-3. In the group are a couple of shared apps.
+|neon_community|
+
+3. In the group are a couple of shared apps with the |beta| tag. 
+
+  In the next section, we're going to go over starting one of these apps, and beginning an Analysis, which you can view using the |analyses_button| icon labeled 'Analyses'
+
 
 
 ----
@@ -188,6 +199,24 @@ These Apps are yours to use! You can install new packages and software into them
 .. |Data Store Guide|  raw:: html
 
    <a href="https://learning.cyverse.org/projects/data_store_guide/en/latest/" target="blank">Data Store Guide</a>
+
+.. |analyses_button| image:: ./img/de/analyses_icon.png
+    :width: 25
+    :height: 25
+
+.. |apps_button| image:: ./img/de/apps_icon.png
+    :width: 25
+    :height: 25
+
+.. |data_button| image:: ./img/de/data_icon.png
+    :width: 25
+    :height: 25
+
+.. |data_window| image:: ./img/de/data_window.png
+    :width: 400
+
+.. |neon_community| image:: ./img/de/neon_my_community.png
+    :width: 400
 
 .. |Cyberduck|  raw:: html
 
