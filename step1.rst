@@ -239,4 +239,5 @@ These Apps are yours to use! You can install new packages and software into them
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="https://github.com/tyson-swetnam/2020-neon-aop-workshop" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/2020-neon-aop-workshop" target="blank">Github Repo Link</a>
+

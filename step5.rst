@@ -40,11 +40,11 @@ GitHub is a version control system which tracks changes to code and shares it ac
 
 **4.** Allow the repository to be "Public" -- if you want, you can make it "Private", and it will add the requirement that you authenticate to GitHub everytime you want to clone the repository somewhere else. 
 
-**5.** Select the option to createa ``README.md`` file with the repository. This will create a blank markdown file that you can populate with text later.
+**5.** Select the option to create a ``README.md`` file with the repository. This will create a blank markdown file that you can populate with text later.
 
 **6.** (Optional) Select a License for your code
 
-   Choosing a license is personal, and is important to ensuring that your work is properly attributed and cited in the future. 
+   Choosing a license is important to ensuring that your work is properly attributed and cited in the future. 
    
    .. admonition:: Choosing a License
 
@@ -54,11 +54,11 @@ GitHub is a version control system which tracks changes to code and shares it ac
 *Clone your Repository into RStudio*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-RStudio has the feature of creating an R Project using Version Control.
+RStudio can create a R Project using Version Control with ``git``.
 
-Creating a project with Version Control will allow you to sync changes back up to GitHub while you're working, and when you're finished.
+Creating a project with Version Control will allow you to sync changes back up to GitHub while you're working and when you're finished.
 
-It also allows you to pull other scientists GitHub repositories and work wiht their code, thus enabling repeatability.
+``Git`` also allows you to pull other GitHub repositories and work with existing code and analysis notebooks, thus enabling repeatability.
 
 **7.** In RStudio, select 'File' then 'New Project' and then 'Version Control'
 
@@ -248,4 +248,4 @@ It also allows you to pull other scientists GitHub repositories and work wiht th
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/2020-neon-aop-workshop" target="blank">Github Repo Link</a>
