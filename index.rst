@@ -138,9 +138,9 @@ Application(s) used
       - |rstudio-geospatial-3.6.3|_
       - |CyVerse R Studio GitHub|
     * - JupyterLab 
-      - ``2.2.0``
-      - JupyterLab SciPy with geospatial applications pre-installed
-      - |jupyter-scipy-latest|_
+      - ``2.2.5``
+      - Jupyter Lab Data Science Notebook with Geospatial applications pre-installed
+      - |jupyterlab-geospatial|_
       - |CyVerse JupyterLab GitHub|
 
 Input and example data
@@ -238,8 +238,8 @@ Input and example data
 
    <a href=" " target="blank">CyVerse JupyterLab GitHub</a>
 
-.. |jupyter-scipy-latest| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
-.. _jupyter-scipy-latest: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=91c72a5d-0ce9-484f-a1f1-feba4cab75a5&app-id=bc93504c-d584-11e9-8413-008cfa5ae621 
+.. |jupyterlab-geospatial| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
+.. _jupyterlab-geospatial: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=63afd24c-9acc-4a8c-85ef-58b634a2ebc2&app-id=c940912c-fcea-11ea-b07f-008cfa5ae621
 
 .. |NEON API|  raw:: html
 
