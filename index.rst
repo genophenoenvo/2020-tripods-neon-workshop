@@ -9,6 +9,8 @@
 **CyVerse NEON Airborne Observation Platform Workshop**
 =======================================================
 
+**Requires CyVerse Account (free):** `Enroll yourself today <https://user.cyverse.org/workshops/56/overview>`_ 
+
 **Dates: November 5th, 6th, and 7th (optional) 2020**
 
 ..
