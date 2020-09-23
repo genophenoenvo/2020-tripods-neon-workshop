@@ -11,7 +11,9 @@
 
 **Requires CyVerse Account (free):** `Enroll yourself today <https://user.cyverse.org/workshops/56/overview>`_ 
 
-**Dates: November 5th, 6th, and 7th (optional) 2020**
+**Times: 09:00 - 14:00 MST, UTC-7***
+
+**Dates: November Thursday 5th, Friday 6th, and Saturday 7th (optional day), 2020**
 
 ..
     #### Comment: Use short, imperative titles e.g. Upload and share data, uploading and
