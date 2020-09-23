@@ -11,7 +11,7 @@
 
 **Requires CyVerse Account (free):** `Enroll yourself today <https://user.cyverse.org/workshops/56/overview>`_ 
 
-**Times: 09:00 - 14:00 MST, UTC-7***
+**Times: 09:00 - 14:00 MST, UTC-7**
 
 **Dates: November Thursday 5th, Friday 6th, and Saturday 7th (optional day), 2020**
 
