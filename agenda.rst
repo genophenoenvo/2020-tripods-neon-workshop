@@ -199,7 +199,7 @@ Agenda
   * - 1200-1250
     - Remote Desktops 
     - Tyson
-    - Working in QGIS and CloudCompare remotely
+    - Working in QGIS remotely
     - 
   * - 1250-1300
     - Break
@@ -209,7 +209,7 @@ Agenda
   * - 1300-1350
     - Cloud Native Data
     - Tyson
-    - Working with COGS and Entwine Point Tiles
+    - Working with PDAL and Entwine Point Tiles
     - 
   * - 1350-1400
     - Wrap-up
