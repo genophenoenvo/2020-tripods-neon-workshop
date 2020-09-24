@@ -150,6 +150,12 @@ Creating a project with Version Control will allow you to sync changes back up t
    The repository has a version called ``master``
 
    Create a new branch called ``main``
+   
+   We'll do this in the RStudio Git menu, but it can also be done in the terminal:
+   
+   .. code ::
+   
+      git checkout -b main
 
 **14.** Add tracking for the new files in the repository and create a "commit" message
 
@@ -157,11 +163,11 @@ Creating a project with Version Control will allow you to sync changes back up t
 
    You need to create a "commit" message which briefly explains the changes you're about to make.
 
-**15.** Push your changes to GitHub.
+**15.** Push your changes to the GitHub.
 
-   Your updates are now ready to  be submitted to the GitHub
+   Your updates are now ready to  be submitted to the GitHub from RStudio.
 
-   Because you're sending these files from a remote, your changes will not automatically be accepted by the GitHub.
+   Because you're sending these files from a remote computer, your changes will not automatically be accepted by the GitHub.
 
 *Review and Accept your Pull Request*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -176,20 +182,17 @@ Creating a project with Version Control will allow you to sync changes back up t
 
 **17.** Your files are now saved in GitHub, under a new branch called ``main``
 
-   You can safely delete the ``master`` branch. Above the list of files, click on the ``# branches``, select ``master`` and delete it.
+   You can safely delete the ``master`` branch in RStudio and on GitHub. 
+   
+   On GitHub, above the list of files, click the ``branches`` hyperlink, select the ``master`` branch and delete it.
 
    `Official instructions <https://docs.github.com/en/enterprise/2.14/user/articles/creating-and-deleting-branches-within-your-repository#deleting-a-branch>`_ 
 
    .. admonition:: Black Lives Matter
 
-      `Github <https://www.cnet.com/news/microsofts-github-is-removing-coding-terms-like-master-and-slave/>`_ has stated that they will remove the use of the default branch ``master`` from their platform, but that is not yet the case.
+      `Github <https://www.cnet.com/news/microsofts-github-is-removing-coding-terms-like-master-and-slave/>`_ has stated that they will remove the use of the term ``master`` as the default branch name from their platform, but that is not yet the case.
 
       `Website js script <https://eyqs.ca/tools/rename/>`_ for changing ``master`` to ``main``
-    
-
-
-   
-
 
 ----
 
