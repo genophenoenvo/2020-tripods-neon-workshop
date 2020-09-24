@@ -9,7 +9,9 @@
 **CyVerse NEON Airborne Observation Platform Workshop**
 =======================================================
 
-**Requires CyVerse Account (free):** `Enroll yourself today <https://user.cyverse.org/workshops/56/overview>`_ 
+**Required: CyVerse Account (free)** `Step 1: Create Account <https://user.cyverse.org>`_ 
+
+**Sign up for Workshop** `Step 2: Enroll yourself today! <https://user.cyverse.org/workshops/56/overview>`_
 
 **Times: 09:00 - 14:00 MST, UTC-7**
 
