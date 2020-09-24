@@ -52,51 +52,55 @@ Agenda
     - `Workspace <./step2.html>`_
     - 
   * - 0935-1000
-    - NEON Data API
-    - Donal
-    - Download and Explore NEON Data
-    - `https://www.neonscience.org/download-explore-neon-data <https://www.neonscience.org/download-explore-neon-data>`_
+    - Managing your code for reproducibility
+    -
+    - `Using GitHub for your projects <./step5.html>`_
+    - 
   * - 1000-1010
     - Break
     -
     -
     -
-  * - 1010-1030
-    - RStudio Activity
-    - Tyson
-    - `Download data using NEON Shiny App <./step3.html>`_
-    - `GitHub Download <https://github.com/cyverse-gis/neon-shiny-browser>`_
-  * - 1030-1100
-    - RStudio Activity
+  * - 1010-1100   
+    - NEON Data API
     - Donal
-    - Accessing and working with NEON geolocation data
-    - `https://www.neonscience.org/neon-spatial-data-basics <https://www.neonscience.org/neon-spatial-data-basics>`_
+    - Download and Explore NEON Data
+    - `https://www.neonscience.org/download-explore-neon-data <https://www.neonscience.org/download-explore-neon-data>`_
   * - 1100-1200
     - Brunch, Early-, Regular-, Late- Lunch Break
     -
     -
     -
-  * - 1200-1250
-    - Data Management
+  * - 1200-1230
+    - RStudio Activity
     - Tyson
-    - `Keeping your data in the cloud <./step4.html>`_
-    -
+    - `Download data using NEON Shiny App <./step3.html>`_
+    - `GitHub Download <https://github.com/cyverse-gis/neon-shiny-browser>`_
+  * - 1230-1250
+    - RStudio Activity
+    - Donal
+    - Accessing and working with NEON geolocation data
+    - `https://www.neonscience.org/neon-spatial-data-basics <https://www.neonscience.org/neon-spatial-data-basics>`_    
   * - 1250-1300
     - Break
     -
     -
     -
-  * - 1300-1350
-    - Managing your code for reproducibility
+  * - 1300-1330
+    - RStudio Activity (cont.)
+    - Donal
     -
-    - `Using GitHub for your projects <./step5.html>`_
+    -
+  * - 1330-1350
+    - Data Management
+    - Tyson
+    - `Keeping your data in the cloud <./step4.html>`_
     - 
   * - 1350-1400
     - Wrap-up
     -
     - After-action review (what went well, wrong, could be done better)
     - 
-
 
 
 *Day 2 2020-11-06*
@@ -173,19 +177,19 @@ Agenda
     - Overview of course materials
     - This website
   * - 0910-1000
-    - 
-    - 
-    - 
-    - 
+    - Jupyter Lab
+    - Donal
+    - NEON data API in Python 
+    - `Introduction to NEON Data API in Python <https://www.neonscience.org/neon-api-01-introduction-requests>`_
   * - 1000-1010
     - Break
-    -
+    - 
     -
     -
   * - 1010-1100
-    - 
-    - 
-    - continued
+    - Jupyter Lab
+    - Tyson
+    - Cloud Optimized Geotiff (COG) processing with GDAL
     -
   * - 1100-1200
     - Brunch, Early-, Regular-, Late- Lunch Break
@@ -193,9 +197,9 @@ Agenda
     -
     -
   * - 1200-1250
-    - 
-    - 
-    - 
+    - Remote Desktops 
+    - Tyson
+    - Working in QGIS and CloudCompare remotely
     - 
   * - 1250-1300
     - Break
@@ -203,9 +207,9 @@ Agenda
     -
     -
   * - 1300-1350
-    - 
-    -
-    - continued
+    - Cloud Native Data
+    - Tyson
+    - Working with COGS and Entwine Point Tiles
     - 
   * - 1350-1400
     - Wrap-up
