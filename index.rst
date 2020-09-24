@@ -9,13 +9,19 @@
 **CyVerse NEON Airborne Observation Platform Workshop**
 =======================================================
 
-**Required: CyVerse Account (free)** `Step 1: Create Account <https://user.cyverse.org>`_ 
-
-**Sign up for Workshop** `Step 2: Enroll yourself today! <https://user.cyverse.org/workshops/56/overview>`_
-
 **Times: 09:00 - 14:00 MST, UTC-7**
 
-**Dates: November Thursday 5th, Friday 6th, and Saturday 7th (optional day), 2020**
+**Dates: Thursday 5th, Friday 6th, and Saturday 7th (optional day) November 2020**
+
+**Ready to join the workshop? Follow these steps:**
+
+**Step 1: Create CyVerse Account (free)** |CyVerse User Portal|
+
+Please use your institutional email address, and if you don't have an |ORCID ID| - sign up for one of those too, they're super important and valuable!
+
+**Step 2: Sign up for Workshop** |Workshop Enrollment| 
+
+**Step 3: Review this website -- all of our training materials will be posted or linked from here**
 
 ..
     #### Comment: Use short, imperative titles e.g. Upload and share data, uploading and
@@ -48,10 +54,13 @@ Who to contact if this guide needs fixing. You can also email
 
     * - Maintainer
       - Institution
-      - Contact
+      - GitHub Username
     * - Tyson Lee Swetnam
-      - CyVerse / UA
-      - tswetnam@arizona.edu
+      - CyVerse / University of Arizona
+      - tyson-swetnam
+    * - Donal O'Leary
+      - NEON / Battelle Inc
+      - donal-at-NEON
 ----
 
 .. toctree::
@@ -224,6 +233,14 @@ Input and example data
    .. |Substitution| raw:: html # Place this anywhere in the text you want a hyperlink
 
       <a href="REPLACE_THIS_WITH_URL" target="blank">Replace_with_text</a>
+
+.. |Workshop Enrollment|  raw:: html
+
+   <a href="https://user.cyverse.org/workshops/56/overview" target="blank">Workshop Enrollment</a>
+
+.. |ORCID ID| raw:: html
+
+   <a href="https://orcid.org/" target="blank">ORCID ID</a>
 
 .. |workspace-geospatial-latest| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
 .. _workspace-geospatial-latest: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=66f5a2d6-04c3-4346-8804-fab350e2f9b8&app-id=55f4f8b0-f552-11ea-80fa-008cfa5ae621
