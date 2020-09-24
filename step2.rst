@@ -59,17 +59,17 @@ We're going to walk through the steps of starting an interactive analysis, using
 
    You can set the ``Minimum Disk Space`` to the minimum amount of scratch space you think your data will need.
 
-**3d.** After you've set the analysis name, input data, and resource requirements, click ``Launch Analysis``
+   **iv.** After you've set the analysis name, input data, and resource requirements, click ``Launch Analysis``
 
     Watch closely, you'll see a notification at the top of your screen and in the Bell icon in the upper right.
 
-**4a.** Open the |analyses_button| icon labeled "Analyses" to view your running analysis.
+**4.** Open the |analyses_button| icon labeled "Analyses" to view your running analysis.
 
     Look for your App Name. See the square icon with an arrow pointed up to the right? Click on that icon and a new tab will open.
 
     |analyses_window|
 
-**4b.** Alternately, click the Bell icon in the upper right to see your notifications, you should see 'Access your running analysis here.' as an option. Click on that link and a new tab will open.
+    Alternately, click the Bell icon in the upper right to see your notifications, you should see 'Access your running analysis here.' as an option. Click on that link and a new tab will open.
 
 **5.** Having clicked on either of the hyperlinked icons in Step 4 should result in a new tab opening in your browser.
 
