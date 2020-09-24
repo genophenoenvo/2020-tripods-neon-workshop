@@ -27,33 +27,31 @@ We're going to walk through the steps of starting an interactive analysis, using
 
 **1.** Log into the Discovery Environment `https://de.cyverse.org <https://de.cyverse.org>`_
 
-**2a.** Click one of our quick launch buttons:
+**2.** Click one of our quick launch buttons:
 
-   - Workspace: |workspace-geospatial-latest|_
    - RStudio: |rstudio-geospatial-3.6.3|_
    
-**2b.** Search using the |apps_button| 'Apps' search bar.
+   Or, search using the |apps_button| 'Apps' search bar.
 
-    Search for "workspace-geospatial" or "rstudio geospatial" and see what comes up.
+   query "rstudio geospatial" and see what comes up.
   
-  |apps_search|
+   |apps_search|
 
-    Select the App and a new window should open.
+   Or, click the App button and a new window should open.
 
-**2c.** Under "My Apps" click on the "My Communities" and "NEON" Group
+   Under "My Apps" section click on the "My Communities" section and "NEON" Group should appear
 
+**3.** In the App Window you have a few options.
 
-**3a.** In the App Window you have a few options.
-
-   ``Analysis Name`` - you can change the name of the analysis if you like, the default name is typically ``<the-app-name>_analysis1``
+   **i.** ``Analysis Name`` - you can change the name of the analysis if you like, the default name is typically ``<the-app-name>_analysis1``
 
    Your analysis will run, and when it completes, it will write any data that you have in the WORKING DIRECTORY of the container back to the Data Store in your Analyses folder, e.g. ``/iplant/home/<username>/analyses/<the-app-name>_analysis1-<DATE-TIME-of-job-starting>``
 
-**3b.** The second section is ``Input Data`` and has options for adding (1) a folder, (2) a single file, or (3) multiple files. 
+   **ii.** The second section is ``Input Data`` and has options for adding (1) a folder, (2) a single file, or (3) multiple files. 
 
    For our use case, you do not need to add any data before launching the app. 
 
-**3c.** The third section is ``Resource Requirements``, again you can leave the default settings, or you can modify them.
+   **iii.** The third section is ``Resource Requirements``, again you can leave the default settings, or you can modify them.
 
    You can set the ``Minimum CPU`` to the minimum number of cores your app requires. If you do not select anything, the app will still be able to use multiple cores on the shared node on which it is deployed.
 
