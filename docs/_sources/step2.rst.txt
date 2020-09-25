@@ -219,8 +219,6 @@ We're going to walk through the steps of starting an interactive analysis, using
 .. |rstudio-geospatial-3.6.3| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
 .. _rstudio-geospatial-3.6.3: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=e7383172-dafd-42a2-b539-a67a9b65425e&app-id=6943b4f2-b663-11ea-92c5-008cfa5ae621
 
-
 .. |Github Repo Link|  raw:: html
 
-   <a href="https://github.com/CyVerse-learning-materials/2020-neon-aop-workshop" target="blank">Github Repo Link</a>
-
+   <a href="https://github.com/genophenoenvo/2020-tripods-neon-workshop" target="blank">Github Repo Link</a>
