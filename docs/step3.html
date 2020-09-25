@@ -1,0 +1,330 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>NEON Shiny App &mdash; 2020-neon-aop-workshop 2.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+        <script src="_static/cyverse.js"></script>
+        <script src="_static/detail-expand.js"></script>
+        <script src="_static/question-answer.js"></script>
+        <script src="_static/intercom-script-for-learning.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/cyverse.css" type="text/css" />
+  <link rel="stylesheet" href="_static/detail-expand.css" type="text/css" />
+  <link rel="stylesheet" href="_static/question-answer.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Managing your data in the cloud" href="step4.html" />
+    <link rel="prev" title="Version Control with GitHub" href="step5.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> 2020-neon-aop-workshop
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="index.html">      Home</a></li>
+<li class="toctree-l1"><a class="reference internal" href="agenda.html">Agenda</a></li>
+<li class="toctree-l1"><a class="reference internal" href="step1.html">Discovery Environment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="step2.html">Your Workspace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="step5.html">Version Control with GitHub</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">NEON Shiny App</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#download-the-shiny-app"><em>Download the Shiny App</em></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#starting-the-shiny-app"><em>Starting the Shiny App</em></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#downloading-data-via-the-neon-api"><em>Downloading Data via the NEON API</em></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="step4.html">Manage your cloud data</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">2020-neon-aop-workshop</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>NEON Shiny App</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/step3.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <p><a class="reference external" href="http://learning.cyverse.org/"><img alt="CyVerse_logo" src="_images/cyverse_learning.png" style="width: 500px;" /></a></p>
+<p><a class="reference external" href="http://learning.cyverse.org/"><img alt="Home_Icon" src="_images/homeicon.png" style="width: 25px; height: 25px;" /></a>
+<a class="reference external" href="http://learning.cyverse.org/">Learning Center Home</a></p>
+<div class="section" id="neon-shiny-app">
+<h1>NEON Shiny App<a class="headerlink" href="#neon-shiny-app" title="Permalink to this headline">¶</a></h1>
+<p><strong>Description:</strong></p>
+<p>The <a class="reference external" href="https://www.neonscience.org/download-explore-neon-data">Download and Explore NEON Data API</a> covered the basics of downloading data directy in R from the <code class="docutils literal notranslate"><span class="pre">neonUtilities</span></code> R package.</p>
+<p>Our team created a NEON Shiny App for interfacing with the NEON API in R Studio in a graphical manner.</p>
+<p>The Shiny app can be launched using <a class="reference external" href="https://hub.docker.com/r/cyversevice/shiny-geospatial/neon-shiny-browser">Docker</a>, in RStudio or an RStudio-Server.</p>
+<p>When started the Shiny app will create a new folder called <code class="docutils literal notranslate"><span class="pre">~/NEON_Downloads</span></code> in the home working directory. For the R Studio instance on CyVerse, this is set as <code class="docutils literal notranslate"><span class="pre">/home/rstudio/NEON_Downloads</span></code>.</p>
+<p>Data that are selected and downloaded go into this folder and are organized using the same ontology as the NEON Data API.</p>
+<div class="section" id="download-the-shiny-app">
+<h2><em>Download the Shiny App</em><a class="headerlink" href="#download-the-shiny-app" title="Permalink to this headline">¶</a></h2>
+<p><strong>1.</strong> Have an instance of RStudio-Server in VICE already started, see <a class="reference external" href="./step2.html">Your Workspace</a> for details.</p>
+<p><strong>2.</strong> Click on the <code class="docutils literal notranslate"><span class="pre">Terminal</span></code> tab in the R Console</p>
+<p><strong>3.</strong> Type or copy this text into the linux terminal:</p>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">cyverse</span><span class="o">-</span><span class="n">gis</span><span class="o">/</span><span class="n">neon</span><span class="o">-</span><span class="n">shiny</span><span class="o">-</span><span class="n">browser</span>
+</pre></div>
+</div>
+</div></blockquote>
+<p><strong>4.</strong> The contents of the Git Repository should now be in your workspace files in the lower right of RStudio</p>
+<p><strong>5.</strong> Set the working directory to the <code class="docutils literal notranslate"><span class="pre">neon-shiny-browser</span></code> directory</p>
+</div>
+<div class="section" id="starting-the-shiny-app">
+<h2><em>Starting the Shiny App</em><a class="headerlink" href="#starting-the-shiny-app" title="Permalink to this headline">¶</a></h2>
+<p>We are going to run the Shiny app as a background process. This will keep the R Console active and allow us to continue work in the R Studio while the App is running.</p>
+<p><a class="reference internal" href="_images/background_job.gif"><img alt="background_job" src="_images/background_job.gif" style="width: 800px;" /></a></p>
+<p><strong>6.</strong> Select the <code class="docutils literal notranslate"><span class="pre">Jobs</span></code> option in the Console</p>
+<p><strong>7.</strong> Set the working directory as <code class="docutils literal notranslate"><span class="pre">neon-shiny-browser</span></code> and select the <code class="docutils literal notranslate"><span class="pre">background.R</span></code> script.</p>
+<p><strong>8.</strong> Start the Job</p>
+<blockquote>
+<div><p>The job should start as a background process.</p>
+<p>By using the Job function, you keep Shiny as a background task which leaves your R Console still available.</p>
+</div></blockquote>
+<p><strong>9.</strong> This particular App will likely need to install a few missing dependencies before it starts running. Don’t worry, it will do this automatically. After it has installed the missing package dependencies, it should begin to echo out logs and then start to run on the <code class="docutils literal notranslate"><span class="pre">localhost</span></code> address number <code class="docutils literal notranslate"><span class="pre">127.0.0.1</span></code> using a randomly assigned PORT number:</p>
+<blockquote>
+<div><blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span>(A bunch of stuff above this...)
+
+Reading       layer `D19_HEAL_R3_P1_v1&#39; from data source `/home/rstudio/      neon-shi      ny-browser/NEON-data/Flightdata/      Flight_b      oundaries_2017/D19_HEAL_R3_P1_v1      .geojson&#39; using driver       `GeoJSON      &#39;
+Simple f      e      ature collection with 1 feature       and 4 fields
+geometry             type:  MULTIPOLYGON
+dimensio      n      :      XY
+bbox:                 xmin: -149.3151 ymin: 63      .82981 xmax: -149.1116       ymax: 63.93015
+CRS:            4326
+
+Listening on http://127.0.0.1:5716
+</pre></div>
+</div>
+</div></blockquote>
+<p>The part we want to copy is the <code class="docutils literal notranslate"><span class="pre">http://127.0.0.1:5716</span></code>, the <code class="docutils literal notranslate"><span class="pre">5716</span></code> number here will be randomly assigned</p>
+</div></blockquote>
+<p><strong>10.</strong> Back in the R Console, type the following using the PORT number from the job:</p>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">rstudioapi</span><span class="p">::</span><span class="n">viewer</span><span class="p">(</span><span class="s2">&quot;http://127.0.0.1:5716&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div></blockquote>
+<p><strong>11.</strong> The App should start to run and appear in the lower right “Viewer”. You can pop the app out into its own browser tab, and begin to use it.</p>
+</div>
+<div class="section" id="downloading-data-via-the-neon-api">
+<h2><em>Downloading Data via the NEON API</em><a class="headerlink" href="#downloading-data-via-the-neon-api" title="Permalink to this headline">¶</a></h2>
+<p><strong>12.</strong> Browse the App and find a dataset that you’re interested in downloading.</p>
+<p><a class="reference internal" href="https://data.cyverse.org/dav-anon/iplant/home/tswetnam/vice_screencaps/neon-shiny.gif"><img alt="neon-shiny" src="https://data.cyverse.org/dav-anon/iplant/home/tswetnam/vice_screencaps/neon-shiny.gif" style="width: 800px;" /></a></p>
+<p><strong>13.</strong> AOP data use a slightly different protocol in the NEON Data API, so make sure to select the AOP data check box when you are ready.</p>
+<p><strong>14.</strong> After you’ve initiated the download, the data will begin being downloaded to the <code class="docutils literal notranslate"><span class="pre">~/NEON_Downloads</span></code> folder.</p>
+<blockquote>
+<div><p>When the data download is complete you will get a notification.</p>
+</div></blockquote>
+<p><strong>15.</strong> Important: Your data are in a directory which is not set as the WORKDIR by the Docker container in the Discovery Environment. This means that your downloaded data will NOT be saved back to the Data Store when your analysis completes.</p>
+<p><strong>Output/Results</strong></p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Output</p></th>
+<th class="head"><p>Description</p></th>
+<th class="head"><p>Notes</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>NEON Data!</p></td>
+<td><p>Data should be in the <code class="docutils literal notranslate"><span class="pre">/home/rstudio/NEON_Downloads</span></code> directory</p></td>
+<td><p>These data use the same file-tree hierarchy as the NEON Data API.</p></td>
+</tr>
+</tbody>
+</table>
+<hr class="docutils" />
+<p><strong>Description of output and results</strong></p>
+<hr class="docutils" />
+<p><strong>Fix or improve this documentation</strong></p>
+<ul class="simple">
+<li><p>Search for an answer:
+<a href="http://learning.cyverse.org" target="blank">CyVerse Learning Center</a></p></li>
+<li><p>Ask us for help:
+click <a class="reference internal" href="_images/intercom.png"><img alt="Intercom" src="_images/intercom.png" style="width: 25px; height: 25px;" /></a> on the lower right-hand side of the page</p></li>
+<li><p>Report an issue or submit a change:
+<a href="https://github.com/CyVerse-learning-materials/2020-neon-aop-workshop" target="blank">Github Repo Link</a></p></li>
+<li><p>Send feedback: <a class="reference external" href="mailto:learning&#37;&#52;&#48;CyVerse&#46;org">learning<span>&#64;</span>CyVerse<span>&#46;</span>org</a></p></li>
+</ul>
+<hr class="docutils" />
+<p><a class="reference external" href="http://learning.cyverse.org/"><img alt="Home_Icon" src="_images/homeicon.png" style="width: 25px; height: 25px;" /></a>
+<a class="reference external" href="http://learning.cyverse.org/">Learning Center Home</a></p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="step4.html" class="btn btn-neutral float-right" title="Managing your data in the cloud" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="step5.html" class="btn btn-neutral float-left" title="Version Control with GitHub" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, CyVerse
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
