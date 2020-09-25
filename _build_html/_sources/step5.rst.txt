@@ -40,11 +40,11 @@ GitHub is a version control system which tracks changes to code and shares it ac
 
 **4.** Allow the repository to be "Public" -- if you want, you can make it "Private", and it will add the requirement that you authenticate to GitHub everytime you want to clone the repository somewhere else. 
 
-**5.** Select the option to createa ``README.md`` file with the repository. This will create a blank markdown file that you can populate with text later.
+**5.** Select the option to create a ``README.md`` file with the repository. This will create a blank markdown file that you can populate with text later.
 
 **6.** (Optional) Select a License for your code
 
-   Choosing a license is personal, and is important to ensuring that your work is properly attributed and cited in the future. 
+   Choosing a license is important to ensuring that your work is properly attributed and cited in the future. 
    
    .. admonition:: Choosing a License
 
@@ -54,11 +54,11 @@ GitHub is a version control system which tracks changes to code and shares it ac
 *Clone your Repository into RStudio*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-RStudio has the feature of creating an R Project using Version Control.
+RStudio can create a R Project using Version Control with ``git``.
 
-Creating a project with Version Control will allow you to sync changes back up to GitHub while you're working, and when you're finished.
+Creating a project with Version Control will allow you to sync changes back up to GitHub while you're working and when you're finished.
 
-It also allows you to pull other scientists GitHub repositories and work wiht their code, thus enabling repeatability.
+``Git`` also allows you to pull other GitHub repositories and work with existing code and analysis notebooks, thus enabling repeatability.
 
 **7.** In RStudio, select 'File' then 'New Project' and then 'Version Control'
 
@@ -150,6 +150,12 @@ It also allows you to pull other scientists GitHub repositories and work wiht th
    The repository has a version called ``master``
 
    Create a new branch called ``main``
+   
+   We'll do this in the RStudio Git menu, but it can also be done in the terminal:
+   
+   .. code ::
+   
+      git checkout -b main
 
 **14.** Add tracking for the new files in the repository and create a "commit" message
 
@@ -157,11 +163,11 @@ It also allows you to pull other scientists GitHub repositories and work wiht th
 
    You need to create a "commit" message which briefly explains the changes you're about to make.
 
-**15.** Push your changes to GitHub.
+**15.** Push your changes to the GitHub.
 
-   Your updates are now ready to  be submitted to the GitHub
+   Your updates are now ready to  be submitted to the GitHub from RStudio.
 
-   Because you're sending these files from a remote, your changes will not automatically be accepted by the GitHub.
+   Because you're sending these files from a remote computer, your changes will not automatically be accepted by the GitHub.
 
 *Review and Accept your Pull Request*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -176,20 +182,17 @@ It also allows you to pull other scientists GitHub repositories and work wiht th
 
 **17.** Your files are now saved in GitHub, under a new branch called ``main``
 
-   You can safely delete the ``master`` branch. Above the list of files, click on the ``# branches``, select ``master`` and delete it.
+   You can safely delete the ``master`` branch in RStudio and on GitHub. 
+   
+   On GitHub, above the list of files, click the ``branches`` hyperlink, select the ``master`` branch and delete it.
 
    `Official instructions <https://docs.github.com/en/enterprise/2.14/user/articles/creating-and-deleting-branches-within-your-repository#deleting-a-branch>`_ 
 
    .. admonition:: Black Lives Matter
 
-      `Github <https://www.cnet.com/news/microsofts-github-is-removing-coding-terms-like-master-and-slave/>`_ has stated that they will remove the use of the default branch ``master`` from their platform, but that is not yet the case.
+      `Github <https://www.cnet.com/news/microsofts-github-is-removing-coding-terms-like-master-and-slave/>`_ has stated that they will remove the use of the term ``master`` as the default branch name from their platform, but that is not yet the case.
 
       `Website js script <https://eyqs.ca/tools/rename/>`_ for changing ``master`` to ``main``
-    
-
-
-   
-
 
 ----
 
@@ -248,4 +251,4 @@ It also allows you to pull other scientists GitHub repositories and work wiht th
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/2020-neon-aop-workshop" target="blank">Github Repo Link</a>

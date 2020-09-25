@@ -94,7 +94,7 @@
               <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="index.html">      Home</a></li>
 <li class="toctree-l1"><a class="reference internal" href="agenda.html">Agenda</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">      Discovery Environment</a><ul>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Discovery Environment</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#the-data-store"><em>The Data Store</em></a></li>
 <li class="toctree-l2"><a class="reference internal" href="#the-app-catalog"><em>The App Catalog</em></a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#terminology"><em>TERMINOLOGY</em></a></li>
@@ -103,9 +103,9 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="step2.html">Your Workspace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="step5.html">Version Control with GitHub</a></li>
 <li class="toctree-l1"><a class="reference internal" href="step3.html">NEON Shiny App</a></li>
 <li class="toctree-l1"><a class="reference internal" href="step4.html">Manage your cloud data</a></li>
-<li class="toctree-l1"><a class="reference internal" href="step5.html">Version Control with GitHub</a></li>
 </ul>
 
             
@@ -181,10 +181,8 @@
 <div class="section" id="the-data-store">
 <h2><em>The Data Store</em><a class="headerlink" href="#the-data-store" title="Permalink to this headline">¶</a></h2>
 <p><a href="https://learning.cyverse.org/projects/data_store_guide/en/latest/" target="blank">Data Store Guide</a></p>
-<ol class="arabic simple">
-<li><p>Click the <a class="reference internal" href="_images/data_icon.png"><img alt="data_button" src="_images/data_icon.png" style="width: 25px; height: 25px;" /></a> icon labeled <strong>Data</strong></p></li>
-<li><p>Open your personal user name space in the file browser</p></li>
-</ol>
+<p><strong>1.</strong> Click the <a class="reference internal" href="_images/data_icon.png"><img alt="data_button" src="_images/data_icon.png" style="width: 25px; height: 25px;" /></a> icon labeled <strong>Data</strong></p>
+<p><strong>2.</strong> Open your personal user name space in the file browser</p>
 <blockquote>
 <div><p><a class="reference internal" href="_images/data_window.png"><img alt="data_window" src="_images/data_window.png" style="width: 400px;" /></a></p>
 <blockquote>
@@ -195,16 +193,17 @@
 <p>This is your personal space, it is private to you. You can create new folders and upload or download files.</p>
 </div></blockquote>
 </div></blockquote>
-<ol class="arabic" start="3">
-<li><p>Create a new folder called <code class="docutils literal notranslate"><span class="pre">NEON_Downloads</span></code></p>
-<p>The new folder is located at:</p>
+<p><strong>3.</strong> Create a new folder called <code class="docutils literal notranslate"><span class="pre">NEON_Downloads</span></code></p>
+<blockquote>
+<div><p>The new folder is located at:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">iplant</span><span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">username</span><span class="o">/</span><span class="n">NEON_Downloads</span>
 </pre></div>
 </div>
 <p>This folder is private, only you can see it.</p>
-</li>
-<li><p>Share the folder with somone or with the rest of the CyVerse community</p>
-<p>Click on the ‘Share’ tab and ‘Share with Collaborators’ option.</p>
+</div></blockquote>
+<p><strong>4.</strong> Share the folder with somone or with the rest of the CyVerse community</p>
+<blockquote>
+<div><p>Click on the ‘Share’ tab and ‘Share with Collaborators’ option.</p>
 <p>Type in a user’s given name and it should be searched and pop up. You will not see their <code class="docutils literal notranslate"><span class="pre">username</span></code>, only their identity and institution information.</p>
 <p>You have three options in granting privileges to others: <code class="docutils literal notranslate"><span class="pre">read</span></code> <code class="docutils literal notranslate"><span class="pre">write</span></code> or <code class="docutils literal notranslate"><span class="pre">own</span></code></p>
 <ul class="simple">
@@ -214,9 +213,10 @@
 </ul>
 <p>Type in ‘Public User’ – adding this user will share the directory with all other CyVerse users.</p>
 <p>Type in ‘Anonymous User’ – adding this user will share the directory with the open internet (it will become visible on the internet via <a class="reference external" href="https://data.cyverse.org/dav-anon/">https://data.cyverse.org/dav-anon/</a></p>
-</li>
-<li><p>Look into the Community Data folder</p>
-<p>These are public folders that have been ‘shared’ with all CyVerse users or with the open internet (via the Anonymous User group):</p>
+</div></blockquote>
+<p><strong>5.</strong> Look into the Community Data folder</p>
+<blockquote>
+<div><p>These are public folders that have been ‘shared’ with all CyVerse users or with the open internet (via the Anonymous User group):</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">iplant</span><span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">shared</span><span class="o">/</span>
 </pre></div>
 </div>
@@ -226,17 +226,20 @@
 </div>
 <p>There are some sample NEON AOP Data in here that we’ll get to tomorrow.</p>
 <p>There are many more Community Data folders in CyVerse that you cannot see – that’s because they have not been shared with the ‘Public’ or ‘Anonymous’ user groups.</p>
-</li>
-<li><p>Look into the ‘Shared with Me’ folder</p>
-<p>These folders are private user accounts that have public data in them or have been shared with you personally.</p>
-</li>
-<li><p>Access the Data Store from Cyberduck (Windows and Mac OS X only)</p>
-<p>Download <a href="https://cyberduck.io/" target="blank">Cyberduck</a> program onto your local computer.</p>
+</div></blockquote>
+<p><strong>6.</strong> Look into the ‘Shared with Me’ folder</p>
+<blockquote>
+<div><p>These folders are private user accounts that have public data in them or have been shared with you personally.</p>
+</div></blockquote>
+<p><strong>7.</strong> Access the Data Store from Cyberduck (Windows and Mac OS X only)</p>
+<blockquote>
+<div><p>Download <a href="https://cyberduck.io/" target="blank">Cyberduck</a> program onto your local computer.</p>
 <p>Add the <a href="https://learning.cyverse.org/projects/data_store_guide/en/latest/step1.html" target="blank">Cyberduck Profile</a> file to your installation. This will request your CyVerse credentials.</p>
 <p>View the contents of your Data Store. Drag and drop files and Cyberduck will upload / download them for you.</p>
-</li>
-<li><p>Access the Data Store from WebDav (browser based)</p>
-<p>In your browser, navigate to <a class="reference external" href="https://data.cyverse.org">https://data.cyverse.org</a></p>
+</div></blockquote>
+<p><strong>8.</strong> Access the Data Store from WebDav (browser based)</p>
+<blockquote>
+<div><p>In your browser, navigate to <a class="reference external" href="https://data.cyverse.org">https://data.cyverse.org</a></p>
 <p>WebDav is a read-only space for viewing data that are already in the data store</p>
 <p>The <code class="docutils literal notranslate"><span class="pre">https://data.cyverse.org/dav/</span></code> folder path requires authentication with your CyVerse username and password</p>
 <p>The <code class="docutils literal notranslate"><span class="pre">https://data.cyverse.org/dav-anon/</span></code> folder path is public and anonymous read only to anyone on the interent.</p>
@@ -252,8 +255,7 @@
 <p>Downloading data from commercial cloud storage providors directly into CyVerse Data Store requires you have a running instance (virtual machine, or container in Discovery Environment) where the data can be staged before moving them onto the Data Store.</p>
 <p>Uploading data to CyVerse is dependent upon your local internet service provider.</p>
 </div>
-</li>
-</ol>
+</div></blockquote>
 </div>
 <div class="section" id="the-app-catalog">
 <h2><em>The App Catalog</em><a class="headerlink" href="#the-app-catalog" title="Permalink to this headline">¶</a></h2>
@@ -264,14 +266,10 @@
 <h3><em>TERMINOLOGY</em><a class="headerlink" href="#terminology" title="Permalink to this headline">¶</a></h3>
 <p><strong>App</strong> – a graphical interface for starting a “Tool” here in the Discovery Environment. The App window can be customized to use any set of conditionals, parameters, resource requirements, input data, or output folders needed to do your analysis.</p>
 <p><strong>Tool</strong> – a “Tool” is a Docker container which has been added to the Discovery Environment tool manager. It should be public on the Docker Hub or another Docker Registry (e.g. quay.io, NVIDIA NGC, etc.). After a tool has been added to the Discovery Environment using the “Manage Tools” feature in the Apps window, a DE App can be created for it.</p>
-<ol class="arabic simple">
-<li><p>Click the <a class="reference internal" href="_images/apps_icon.png"><img alt="apps_button" src="_images/apps_icon.png" style="width: 25px; height: 25px;" /></a> icon labeled <strong>Apps</strong></p></li>
-<li><p>Under <strong>Categories</strong> and “My Apps” and “My Communities” you should see a group called NEON</p></li>
-</ol>
+<p><strong>9.</strong> Click the <a class="reference internal" href="_images/apps_icon.png"><img alt="apps_button" src="_images/apps_icon.png" style="width: 25px; height: 25px;" /></a> icon labeled <strong>Apps</strong></p>
+<p><strong>10.</strong> Under <strong>Categories</strong> and “My Apps” and “My Communities” you should see a group called NEON</p>
 <p><a class="reference internal" href="_images/neon_my_community.png"><img alt="neon_community" src="_images/neon_my_community.png" style="width: 400px;" /></a></p>
-<ol class="arabic simple" start="3">
-<li><p>In the group are a couple of shared apps with the <a href="#id2"><span class="problematic" id="id3">|beta|</span></a> tag.</p></li>
-</ol>
+<p><strong>11.</strong> In the group are a couple of shared apps with the <a href="#id2"><span class="problematic" id="id3">|beta|</span></a> tag.</p>
 <blockquote>
 <div><p>In the next section, we’re going to go over starting one of these apps, and beginning an Analysis, which you can view using the <a class="reference internal" href="_images/analyses_icon.png"><img alt="analyses_button" src="_images/analyses_icon.png" style="width: 25px; height: 25px;" /></a> icon labeled ‘Analyses’</p>
 </div></blockquote>
@@ -283,7 +281,7 @@
 <li><p>Ask us for help:
 click <a class="reference internal" href="_images/intercom.png"><img alt="Intercom" src="_images/intercom.png" style="width: 25px; height: 25px;" /></a> on the lower right-hand side of the page</p></li>
 <li><p>Report an issue or submit a change:
-<a href="https://github.com/tyson-swetnam/2020-neon-aop-workshop" target="blank">Github Repo Link</a></p></li>
+<a href="https://github.com/CyVerse-learning-materials/2020-neon-aop-workshop" target="blank">Github Repo Link</a></p></li>
 <li><p>Send feedback: <a class="reference external" href="mailto:learning&#37;&#52;&#48;CyVerse&#46;org">learning<span>&#64;</span>CyVerse<span>&#46;</span>org</a></p></li>
 </ul>
 <hr class="docutils" />

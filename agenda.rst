@@ -25,7 +25,7 @@ Agenda
     * - 
       - 
 
-*Day 1 2020-11-05*
+*Day 1 2020-11-09*
 ~~~~~~~~~~~~~~~~~~~
 
 .. list-table::
@@ -37,169 +37,64 @@ Agenda
     - Content
     - Links
   * - 0900-0910
-    - Briefing
-    - Tyson
-    - Overview of course materials
+    - Welcome
+    - Anne, Arun, Remco, Bryan
+    - Overview of the workshop
     - This website
-  * - 0910-0930
-    - Discovery Environment
+  * - 0910-0920
+    - Ice Breaker
+    - All
+    - favorite Quarantine food and drink recipe
+    - Create a Quar-Cook-Book
+  * - 0920-0930
+    - Logistics
     - Tyson
-    - `Data Apps Analyses <./step1.html>`_
-    - `https://de.cyverse.org <https://de.cyverse.org>`_
-  * - 0930-0935
-    - Launch your workbench
-    - Tyson
-    - `Workspace <./step2.html>`_
+    - Use of webpages, Zoom, SLACK, and GitHub
     - 
-  * - 0935-1000
-    - Managing your code for reproducibility
+  * - 0930-0945
+    - Lightning Overview of the GxE=P HDR
+    - Anne, Bryan, and Arun, Remco
+    - Four 3 minute Lightning talk for TRIPODS participants w/ 2 minute QA about Year 1
     -
-    - `Using GitHub for your projects <./step5.html>`_
+  * - 0945-1000
+    - Tech Solutions Breakout  
+    - Tyson, Remco, Arun 
+    - Breakout Rooms focused on ML, Viz, and Cyberinfrastructure 
     - 
   * - 1000-1010
     - Break
     -
     -
     -
-  * - 1010-1100   
-    - NEON Data API
-    - Donal
-    - Download and Explore NEON Data
-    - `https://www.neonscience.org/download-explore-neon-data <https://www.neonscience.org/download-explore-neon-data>`_
+  * - 1010-1030   
+    - Data Management Breakout
+    - David, Pankaj, Anne
+    - Rooms focused on Phenotyping, Genomic, Environmental Data Sets
+    - 
+  * - 1030-1045
+    - Science Questions Breakout
+    - Ryan, Gabe, Ishita
+    - Rooms focused on Bayes and ML
+    - 
+  * - 1045-1100
+    - TRIPODS Rapid Fire
+    - TRIPODS Q/A of our weaknesses and problems seen in the Breakouts
+    -
+    -   
   * - 1100-1200
     - Brunch, Early-, Regular-, Late- Lunch Break
     -
     -
     -
-  * - 1200-1230
-    - RStudio Activity
-    - Tyson
-    - `Download data using NEON Shiny App <./step3.html>`_
-    - `GitHub Download <https://github.com/cyverse-gis/neon-shiny-browser>`_
-  * - 1230-1250
-    - RStudio Activity
-    - Donal
-    - Accessing and working with NEON geolocation data
-    - `https://www.neonscience.org/neon-spatial-data-basics <https://www.neonscience.org/neon-spatial-data-basics>`_    
-  * - 1250-1300
-    - Break
-    -
-    -
-    -
-  * - 1300-1330
-    - RStudio Activity (cont.)
-    - Donal
-    -
-    -
-  * - 1330-1350
-    - Data Management
-    - Tyson
-    - `Keeping your data in the cloud <./step4.html>`_
+  * - 1200-1245
+    - Building Research Objects
+    - Tyson and Emily
+    - Year 1 Data Inventory and Status overview
+    - Examples of our notebooks running in CyVerse
+  * - 1245-1250
+    - Check-in
+    - All 
     - 
-  * - 1350-1400
-    - Wrap-up
-    -
-    - After-action review (what went well, wrong, could be done better)
-    - 
-
-
-*Day 2 2020-11-06*
-~~~~~~~~~~~~~~~~~~~
-
-.. list-table::
-  :header-rows: 1
-
-  * - Time (AZT MST)
-    - Activity
-    - Lead Personnel
-    - Content
-    - Links
-  * - 0900-0910
-    - Briefing
-    - Tyson
-    - Overview of course materials
-    - This website
-  * - 0910-1000
-    - RStudio Activity 
-    - 
-    - Calculating Forest Structural Diversity Metrics from NEON lidar data
-    - `https://www.neonscience.org/structural-diversity-discrete-return <https://www.neonscience.org/structural-diversity-discrete-return>`_
-  * - 1000-1010
-    - Break
-    -
-    -
-    -
-  * - 1010-1100
-    - RStudio Activity
-    - 
-    - continued
-    -
-  * - 1100-1200
-    - Brunch, Early-, Regular-, Late- Lunch Break
-    -
-    -
-    -
-  * - 1200-1250
-    - RStudio Activity
-    - 
-    - Select pixels and compare spectral signatures in R
-    - `https://www.neonscience.org/select-pixels-compare-spectral-signatures-r <https://www.neonscience.org/select-pixels-compare-spectral-signatures-r>`_
-  * - 1250-1300
-    - Break
-    -
-    -
-    -
-  * - 1300-1350
-    - RStudio Activity
-    -
-    - continued
-    - 
-  * - 1350-1400
-    - Wrap-up
-    -
-    - After-action review (what went well, wrong, could be done better)
-    - 
-
-*Day 3 2020-11-07*
-~~~~~~~~~~~~~~~~~~~
-
-.. list-table::
-  :header-rows: 1
-
-  * - Time (AZT MST)
-    - Activity
-    - Lead Personnel
-    - Content
-    - Links
-  * - 0900-0910
-    - Briefing
-    - 
-    - Overview of course materials
-    - This website
-  * - 0910-1000
-    - Jupyter Lab
-    - Donal
-    - NEON data API in Python 
-    - `Introduction to NEON Data API in Python <https://www.neonscience.org/neon-api-01-introduction-requests>`_
-  * - 1000-1010
-    - Break
-    - 
-    -
-    -
-  * - 1010-1100
-    - Jupyter Lab
-    - Tyson
-    - Cloud Optimized Geotiff (COG) processing with GDAL
-    -
-  * - 1100-1200
-    - Brunch, Early-, Regular-, Late- Lunch Break
-    -
-    -
-    -
-  * - 1200-1250
-    - Remote Desktops 
-    - Tyson
-    - Working in QGIS remotely
     - 
   * - 1250-1300
     - Break
@@ -207,16 +102,73 @@ Agenda
     -
     -
   * - 1300-1350
-    - Cloud Native Data
-    - Tyson
-    - Working with PDAL and Entwine Point Tiles
+    - Building Research Objects (cont.)
+    - All
     - 
+    -
   * - 1350-1400
     - Wrap-up
     -
     - After-action review (what went well, wrong, could be done better)
     - 
 
+
+*Day 2 2020-11-10*
+~~~~~~~~~~~~~~~~~~~
+
+.. list-table::
+  :header-rows: 1
+
+  * - Time (AZT MST)
+    - Activity
+    - Lead Personnel
+    - Content
+    - Links
+  * - 0900-0910
+    - Briefing
+    - Tyson and Ryan
+    - Review Day 1
+    - This website
+  * - 0910-1000
+    - Intro to CyVerse Workbench
+    - Tyson
+    - Launching VMs in CyVerse
+    - `Launching Apps <./step2.html>`_
+  * - 1000-1010
+    - Break
+    -
+    -
+    -
+  * - 1010-1100
+    - Activity 
+    - Tyson 
+    - Intro to NEON Data API and NEON Datasets 
+    - `NEON Data API <./step3.html>`_
+  * - 1100-1200
+    - Brunch, Early-, Regular-, Late- Lunch Break
+    - 
+    -
+    -
+  * - 1200-1250
+    - Activity
+    - Ryan and Gabe
+    - ML applications in RStudio and Python
+    - Running analyses
+  * - 1250-1300
+    - Break
+    -
+    -
+    -
+  * - 1300-1350
+    - RStudio Activity (cont)
+    -
+    - 
+    - 
+  * - 1350-1400
+    - Wrap-up
+    -
+    - After-action review (what went well, wrong, could be done better)
+    - 
 
 
 ----

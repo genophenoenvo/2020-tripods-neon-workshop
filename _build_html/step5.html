@@ -42,7 +42,8 @@
   <link rel="stylesheet" href="_static/question-answer.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Managing your data in the cloud" href="step4.html" /> 
+    <link rel="next" title="NEON Shiny App" href="step3.html" />
+    <link rel="prev" title="Your Workspace" href="step2.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -93,10 +94,8 @@
               <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="index.html">      Home</a></li>
 <li class="toctree-l1"><a class="reference internal" href="agenda.html">Agenda</a></li>
-<li class="toctree-l1"><a class="reference internal" href="step1.html">      Discovery Environment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="step1.html">Discovery Environment</a></li>
 <li class="toctree-l1"><a class="reference internal" href="step2.html">Your Workspace</a></li>
-<li class="toctree-l1"><a class="reference internal" href="step3.html">NEON Shiny App</a></li>
-<li class="toctree-l1"><a class="reference internal" href="step4.html">Manage your cloud data</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Version Control with GitHub</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#create-a-new-repository"><em>Create a new Repository</em></a></li>
 <li class="toctree-l2"><a class="reference internal" href="#clone-your-repository-into-rstudio"><em>Clone your Repository into RStudio</em></a></li>
@@ -104,6 +103,8 @@
 <li class="toctree-l2"><a class="reference internal" href="#review-and-accept-your-pull-request"><em>Review and Accept your Pull Request</em></a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="step3.html">NEON Shiny App</a></li>
+<li class="toctree-l1"><a class="reference internal" href="step4.html">Manage your cloud data</a></li>
 </ul>
 
             
@@ -190,10 +191,10 @@
 <div><p>If you have an existing repo with this name it will be disallowed.</p>
 </div></blockquote>
 <p><strong>4.</strong> Allow the repository to be “Public” – if you want, you can make it “Private”, and it will add the requirement that you authenticate to GitHub everytime you want to clone the repository somewhere else.</p>
-<p><strong>5.</strong> Select the option to createa <code class="docutils literal notranslate"><span class="pre">README.md</span></code> file with the repository. This will create a blank markdown file that you can populate with text later.</p>
+<p><strong>5.</strong> Select the option to create a <code class="docutils literal notranslate"><span class="pre">README.md</span></code> file with the repository. This will create a blank markdown file that you can populate with text later.</p>
 <p><strong>6.</strong> (Optional) Select a License for your code</p>
 <blockquote>
-<div><p>Choosing a license is personal, and is important to ensuring that your work is properly attributed and cited in the future.</p>
+<div><p>Choosing a license is important to ensuring that your work is properly attributed and cited in the future.</p>
 <div class="admonition-choosing-a-license admonition">
 <p class="admonition-title">Choosing a License</p>
 <p><a class="reference external" href="https://choosealicense.com/">choosealicense.com</a> offers support and answers questions about selecting the right license.</p>
@@ -202,9 +203,9 @@
 </div>
 <div class="section" id="clone-your-repository-into-rstudio">
 <h2><em>Clone your Repository into RStudio</em><a class="headerlink" href="#clone-your-repository-into-rstudio" title="Permalink to this headline">¶</a></h2>
-<p>RStudio has the feature of creating an R Project using Version Control.</p>
-<p>Creating a project with Version Control will allow you to sync changes back up to GitHub while you’re working, and when you’re finished.</p>
-<p>It also allows you to pull other scientists GitHub repositories and work wiht their code, thus enabling repeatability.</p>
+<p>RStudio can create a R Project using Version Control with <code class="docutils literal notranslate"><span class="pre">git</span></code>.</p>
+<p>Creating a project with Version Control will allow you to sync changes back up to GitHub while you’re working and when you’re finished.</p>
+<p><code class="docutils literal notranslate"><span class="pre">Git</span></code> also allows you to pull other GitHub repositories and work with existing code and analysis notebooks, thus enabling repeatability.</p>
 <p><strong>7.</strong> In RStudio, select ‘File’ then ‘New Project’ and then ‘Version Control’</p>
 <p><a class="reference internal" href="_images/rstudio_git.gif"><img alt="rstudio_git" src="_images/rstudio_git.gif" style="width: 800px;" /></a></p>
 <p><strong>8.</strong> The repository will be copied onto your instance and you’ll be in a directory with a new R project file.</p>
@@ -276,16 +277,20 @@
 <blockquote>
 <div><p>The repository has a version called <code class="docutils literal notranslate"><span class="pre">master</span></code></p>
 <p>Create a new branch called <code class="docutils literal notranslate"><span class="pre">main</span></code></p>
+<p>We’ll do this in the RStudio Git menu, but it can also be done in the terminal:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">checkout</span> <span class="o">-</span><span class="n">b</span> <span class="n">main</span>
+</pre></div>
+</div>
 </div></blockquote>
 <p><strong>14.</strong> Add tracking for the new files in the repository and create a “commit” message</p>
 <blockquote>
 <div><p>RStudio’s Git integration should show you which files are not tracked by <code class="docutils literal notranslate"><span class="pre">git</span></code>. You can select the check boxes for each file and add them.</p>
 <p>You need to create a “commit” message which briefly explains the changes you’re about to make.</p>
 </div></blockquote>
-<p><strong>15.</strong> Push your changes to GitHub.</p>
+<p><strong>15.</strong> Push your changes to the GitHub.</p>
 <blockquote>
-<div><p>Your updates are now ready to  be submitted to the GitHub</p>
-<p>Because you’re sending these files from a remote, your changes will not automatically be accepted by the GitHub.</p>
+<div><p>Your updates are now ready to  be submitted to the GitHub from RStudio.</p>
+<p>Because you’re sending these files from a remote computer, your changes will not automatically be accepted by the GitHub.</p>
 </div></blockquote>
 </div>
 <div class="section" id="review-and-accept-your-pull-request">
@@ -298,11 +303,12 @@
 </div></blockquote>
 <p><strong>17.</strong> Your files are now saved in GitHub, under a new branch called <code class="docutils literal notranslate"><span class="pre">main</span></code></p>
 <blockquote>
-<div><p>You can safely delete the <code class="docutils literal notranslate"><span class="pre">master</span></code> branch. Above the list of files, click on the <code class="docutils literal notranslate"><span class="pre">#</span> <span class="pre">branches</span></code>, select <code class="docutils literal notranslate"><span class="pre">master</span></code> and delete it.</p>
+<div><p>You can safely delete the <code class="docutils literal notranslate"><span class="pre">master</span></code> branch in RStudio and on GitHub.</p>
+<p>On GitHub, above the list of files, click the <code class="docutils literal notranslate"><span class="pre">branches</span></code> hyperlink, select the <code class="docutils literal notranslate"><span class="pre">master</span></code> branch and delete it.</p>
 <p><a class="reference external" href="https://docs.github.com/en/enterprise/2.14/user/articles/creating-and-deleting-branches-within-your-repository#deleting-a-branch">Official instructions</a></p>
 <div class="admonition-black-lives-matter admonition">
 <p class="admonition-title">Black Lives Matter</p>
-<p><a class="reference external" href="https://www.cnet.com/news/microsofts-github-is-removing-coding-terms-like-master-and-slave/">Github</a> has stated that they will remove the use of the default branch <code class="docutils literal notranslate"><span class="pre">master</span></code> from their platform, but that is not yet the case.</p>
+<p><a class="reference external" href="https://www.cnet.com/news/microsofts-github-is-removing-coding-terms-like-master-and-slave/">Github</a> has stated that they will remove the use of the term <code class="docutils literal notranslate"><span class="pre">master</span></code> as the default branch name from their platform, but that is not yet the case.</p>
 <p><a class="reference external" href="https://eyqs.ca/tools/rename/">Website js script</a> for changing <code class="docutils literal notranslate"><span class="pre">master</span></code> to <code class="docutils literal notranslate"><span class="pre">main</span></code></p>
 </div>
 </div></blockquote>
@@ -316,7 +322,7 @@
 <li><p>Ask us for help:
 click <a class="reference internal" href="_images/intercom.png"><img alt="Intercom" src="_images/intercom.png" style="width: 25px; height: 25px;" /></a> on the lower right-hand side of the page</p></li>
 <li><p>Report an issue or submit a change:
-<a href="FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX" target="blank">Github Repo Link</a></p></li>
+<a href="https://github.com/CyVerse-learning-materials/2020-neon-aop-workshop" target="blank">Github Repo Link</a></p></li>
 <li><p>Send feedback: <a class="reference external" href="mailto:learning&#37;&#52;&#48;CyVerse&#46;org">learning<span>&#64;</span>CyVerse<span>&#46;</span>org</a></p></li>
 </ul>
 <hr class="docutils" />
@@ -333,8 +339,10 @@ click <a class="reference internal" href="_images/intercom.png"><img alt="Interc
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
+        <a href="step3.html" class="btn btn-neutral float-right" title="NEON Shiny App" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
-        <a href="step4.html" class="btn btn-neutral float-left" title="Managing your data in the cloud" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+        <a href="step2.html" class="btn btn-neutral float-left" title="Your Workspace" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

@@ -6,12 +6,12 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-**CyVerse NEON Airborne Observation Platform Workshop**
-=======================================================
+**TRIPODS - HDR Workshop**
+==========================
 
 **Times: 09:00 - 14:00 MST, UTC-7**
 
-**Dates: Thursday 5th, Friday 6th, and Saturday 7th (optional day) November 2020**
+**Dates: Monday 9th, Tuesday 10th November 2020**
 
 **Ready to join the workshop? Follow these steps:**
 
@@ -27,14 +27,17 @@ Please use your institutional email address, and if you don't have an |ORCID ID|
     #### Comment: Use short, imperative titles e.g. Upload and share data, uploading and
     sharing data ####
 
-Goal
-----
+Goals
+-----
 
-The ultimate goal of our workshop is to allow users to leave with an understanding of the NEON Data API and working with NEON AOP data in their preferred Integrated Development Environment (IDE) in the cloud.
 
-Other goals include using CyVerse to manage large and very large analyses
+**1. Educate one another and engagement between TRIPODS and HDR scientists**
 
-Demonstrating that they are capable of doing so requires that we provide examples of (1) containers for running geospatial software environments, (2) notebook examples of geospatial data analyses  & (3) documentation for self-paced asynchonous learning and in-person live coding.
+**2. Ensure that we are conducting open science**
+
+**3. Use CyVerse architecture for reproducibile research**
+
+**4. Frame questions for an Institute**
 
 ..
     #### Comment: Avoid covering upstream and downstream steps that are not explicitly and
@@ -47,7 +50,7 @@ Tutorial Maintainer(s)
 ------------------------
 
 Who to contact if this guide needs fixing. You can also email
-`learning@CyVerse.org <learning@CyVerse.org>`_
+`tswetnam@cyverse.org <tswetnam@cyverse.org>`_
 
 .. list-table::
     :header-rows: 1
@@ -58,9 +61,9 @@ Who to contact if this guide needs fixing. You can also email
     * - Tyson Lee Swetnam
       - CyVerse / University of Arizona
       - tyson-swetnam
-    * - Donal O'Leary
-      - NEON / Battelle Inc
-      - donal-at-NEON
+    * - Ryan Bartleme
+      - CyVerse / University of Arizona
+      - rbartleme
 ----
 
 .. toctree::

@@ -6,23 +6,38 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-**CyVerse NEON Airborne Observation Platform Workshop**
-=======================================================
+**TRIPODS - HDR Workshop**
+==========================
 
-**Dates: November 5th, 6th, and 7th (optional) 2020**
+**Times: 09:00 - 14:00 MST, UTC-7**
+
+**Dates: Monday 9th, Tuesday 10th November 2020**
+
+**Ready to join the workshop? Follow these steps:**
+
+**Step 1: Create CyVerse Account (free)** |CyVerse User Portal|
+
+Please use your institutional email address, and if you don't have an |ORCID ID| - sign up for one of those too, they're super important and valuable!
+
+**Step 2: Sign up for Workshop** |Workshop Enrollment| 
+
+**Step 3: Review this website -- all of our training materials will be posted or linked from here**
 
 ..
     #### Comment: Use short, imperative titles e.g. Upload and share data, uploading and
     sharing data ####
 
-Goal
-----
+Goals
+-----
 
-The ultimate goal of our workshop is to allow users to leave with an understanding of the NEON Data API and working with NEON AOP data in their preferred Integrated Development Environment (IDE) in the cloud.
 
-Other goals include using CyVerse to manage large and very large analyses
+**1. Educate one another and engagement between TRIPODS and HDR scientists**
 
-Demonstrating that they are capable of doing so requires that we provide examples of (1) containers for running geospatial software environments, (2) notebook examples of geospatial data analyses  & (3) documentation for self-paced asynchonous learning and in-person live coding.
+**2. Ensure that we are conducting open science**
+
+**3. Use CyVerse architecture for reproducibile research**
+
+**4. Frame questions for an Institute**
 
 ..
     #### Comment: Avoid covering upstream and downstream steps that are not explicitly and
@@ -35,17 +50,20 @@ Tutorial Maintainer(s)
 ------------------------
 
 Who to contact if this guide needs fixing. You can also email
-`learning@CyVerse.org <learning@CyVerse.org>`_
+`tswetnam@cyverse.org <tswetnam@cyverse.org>`_
 
 .. list-table::
     :header-rows: 1
 
     * - Maintainer
       - Institution
-      - Contact
+      - GitHub Username
     * - Tyson Lee Swetnam
-      - CyVerse / UA
-      - tswetnam@arizona.edu
+      - CyVerse / University of Arizona
+      - tyson-swetnam
+    * - Ryan Bartleme
+      - CyVerse / University of Arizona
+      - rbartleme
 ----
 
 .. toctree::
@@ -53,11 +71,12 @@ Who to contact if this guide needs fixing. You can also email
 
 	Home <self>
   Agenda <agenda.rst>
-	Discovery Environment <step1.rst>
+  Discovery Environment <step1.rst>
   Your Workspace <step2.rst>
+  Version Control with GitHub <step5.rst>
   NEON Shiny App <step3.rst>
   Manage your cloud data <step4.rst>
-  Version Control with GitHub <step5.rst>
+  
 ..
 	#### Comment:This tutorial can have multiple pages. The table of contents assumes
 	you have an additional page called 'Step One' with content located in 'step1.rst'
@@ -138,9 +157,9 @@ Application(s) used
       - |rstudio-geospatial-3.6.3|_
       - |CyVerse R Studio GitHub|
     * - JupyterLab 
-      - ``2.2.0``
-      - JupyterLab SciPy with geospatial applications pre-installed
-      - |jupyter-scipy-latest|_
+      - ``2.2.5``
+      - Jupyter Lab Data Science Notebook with Geospatial applications pre-installed
+      - |jupyterlab-geospatial|_
       - |CyVerse JupyterLab GitHub|
 
 Input and example data
@@ -219,6 +238,14 @@ Input and example data
 
       <a href="REPLACE_THIS_WITH_URL" target="blank">Replace_with_text</a>
 
+.. |Workshop Enrollment|  raw:: html
+
+   <a href="https://user.cyverse.org/workshops/56/overview" target="blank">Workshop Enrollment</a>
+
+.. |ORCID ID| raw:: html
+
+   <a href="https://orcid.org/" target="blank">ORCID ID</a>
+
 .. |workspace-geospatial-latest| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
 .. _workspace-geospatial-latest: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=66f5a2d6-04c3-4346-8804-fab350e2f9b8&app-id=55f4f8b0-f552-11ea-80fa-008cfa5ae621
 
@@ -238,8 +265,8 @@ Input and example data
 
    <a href=" " target="blank">CyVerse JupyterLab GitHub</a>
 
-.. |jupyter-scipy-latest| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
-.. _jupyter-scipy-latest: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=91c72a5d-0ce9-484f-a1f1-feba4cab75a5&app-id=bc93504c-d584-11e9-8413-008cfa5ae621 
+.. |jupyterlab-geospatial| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
+.. _jupyterlab-geospatial: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=63afd24c-9acc-4a8c-85ef-58b634a2ebc2&app-id=c940912c-fcea-11ea-b07f-008cfa5ae621
 
 .. |NEON API|  raw:: html
 
@@ -255,4 +282,4 @@ Input and example data
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="https://github.com/tyson-swetnam/2020-neon-aop-workshop" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/2020-neon-aop-workshop" target="blank">Github Repo Link</a>

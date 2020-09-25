@@ -24,9 +24,9 @@ After you have created your CyVerse account and been granted access to the visua
 
 |Data Store Guide|
 
-1. Click the |data_button| icon labeled **Data**  
+**1.** Click the |data_button| icon labeled **Data**  
 
-2. Open your personal user name space in the file browser
+**2.** Open your personal user name space in the file browser
 
   |data_window|
    
@@ -38,7 +38,7 @@ After you have created your CyVerse account and been granted access to the visua
    
    This is your personal space, it is private to you. You can create new folders and upload or download files.
    
-3. Create a new folder called ``NEON_Downloads``
+**3.** Create a new folder called ``NEON_Downloads``
 
    The new folder is located at:
    
@@ -48,7 +48,7 @@ After you have created your CyVerse account and been granted access to the visua
       
    This folder is private, only you can see it.   
 
-4. Share the folder with somone or with the rest of the CyVerse community
+**4.** Share the folder with somone or with the rest of the CyVerse community
 
    Click on the 'Share' tab and 'Share with Collaborators' option.
    
@@ -66,7 +66,7 @@ After you have created your CyVerse account and been granted access to the visua
    
    Type in 'Anonymous User' -- adding this user will share the directory with the open internet (it will become visible on the internet via `https://data.cyverse.org/dav-anon/ <https://data.cyverse.org/dav-anon/>`_
 
-5. Look into the Community Data folder
+**5.** Look into the Community Data folder
 
    These are public folders that have been 'shared' with all CyVerse users or with the open internet (via the Anonymous User group): 
    
@@ -84,11 +84,11 @@ After you have created your CyVerse account and been granted access to the visua
    
    There are many more Community Data folders in CyVerse that you cannot see -- that's because they have not been shared with the 'Public' or 'Anonymous' user groups.
 
-6. Look into the 'Shared with Me' folder
+**6.** Look into the 'Shared with Me' folder
 
    These folders are private user accounts that have public data in them or have been shared with you personally. 
 
-7. Access the Data Store from Cyberduck (Windows and Mac OS X only)
+**7.** Access the Data Store from Cyberduck (Windows and Mac OS X only)
    
    Download |Cyberduck| program onto your local computer.
    
@@ -96,7 +96,7 @@ After you have created your CyVerse account and been granted access to the visua
    
    View the contents of your Data Store. Drag and drop files and Cyberduck will upload / download them for you.
    
-8. Access the Data Store from WebDav (browser based)
+**8.** Access the Data Store from WebDav (browser based)
 
    In your browser, navigate to `https://data.cyverse.org <https://data.cyverse.org>`_
    
@@ -140,13 +140,13 @@ These Apps are yours to use! You can install new packages and software into them
 **Tool** -- a "Tool" is a Docker container which has been added to the Discovery Environment tool manager. It should be public on the Docker Hub or another Docker Registry (e.g. quay.io, NVIDIA NGC, etc.). After a tool has been added to the Discovery Environment using the "Manage Tools" feature in the Apps window, a DE App can be created for it. 
 
 
-1. Click the |apps_button| icon labeled **Apps** 
+**9.** Click the |apps_button| icon labeled **Apps** 
 
-2. Under **Categories** and "My Apps" and "My Communities" you should see a group called NEON
+**10.** Under **Categories** and "My Apps" and "My Communities" you should see a group called NEON
 
 |neon_community|
 
-3. In the group are a couple of shared apps with the |beta| tag. 
+**11.** In the group are a couple of shared apps with the |beta| tag. 
 
   In the next section, we're going to go over starting one of these apps, and beginning an Analysis, which you can view using the |analyses_button| icon labeled 'Analyses'
 
@@ -239,4 +239,5 @@ These Apps are yours to use! You can install new packages and software into them
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="https://github.com/tyson-swetnam/2020-neon-aop-workshop" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/2020-neon-aop-workshop" target="blank">Github Repo Link</a>
+

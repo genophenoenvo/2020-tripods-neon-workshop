@@ -188,8 +188,8 @@ We can use ``wget`` or ``curl`` commands in the terminal to download files this 
   We're also using some ``wget`` flags to just get the data and folders back from the Data Store.
 
 
-*Downloading with S3*
-~~~~~~~~~~~~~~~~~~~~~
+*Other Services: Downloading with S3*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Many organizations are hosting data on Amazon Web Services S3, Google Cloud Storage, or Microsoft Azure.
 
@@ -204,8 +204,6 @@ We can download these using their Point Cloud Bulk Data Download option:
       aws s3 cp s3://pc-bulk/NEON_D17/ . --recursive --endpoint-url https://opentopography.s3.sdsc.edu --no-sign-request
 
 ----
-
-**Description of output and results**
 
 
 ----
@@ -255,4 +253,4 @@ We can download these using their Point Cloud Bulk Data Download option:
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/2020-neon-aop-workshop" target="blank">Github Repo Link</a>

@@ -42,7 +42,7 @@
   <link rel="stylesheet" href="_static/question-answer.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="NEON Shiny App" href="step3.html" />
+    <link rel="next" title="Version Control with GitHub" href="step5.html" />
     <link rel="prev" title="Discovery Environment" href="step1.html" /> 
 </head>
 
@@ -94,15 +94,15 @@
               <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="index.html">      Home</a></li>
 <li class="toctree-l1"><a class="reference internal" href="agenda.html">Agenda</a></li>
-<li class="toctree-l1"><a class="reference internal" href="step1.html">      Discovery Environment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="step1.html">Discovery Environment</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Your Workspace</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#starting-a-vice-app"><em>Starting a VICE app</em></a></li>
 <li class="toctree-l2"><a class="reference internal" href="#stopping-a-vice-app"><em>Stopping a VICE app</em></a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="step5.html">Version Control with GitHub</a></li>
 <li class="toctree-l1"><a class="reference internal" href="step3.html">NEON Shiny App</a></li>
 <li class="toctree-l1"><a class="reference internal" href="step4.html">Manage your cloud data</a></li>
-<li class="toctree-l1"><a class="reference internal" href="step5.html">Version Control with GitHub</a></li>
 </ul>
 
             
@@ -179,49 +179,38 @@
 <div class="section" id="starting-a-vice-app">
 <h2><em>Starting a VICE app</em><a class="headerlink" href="#starting-a-vice-app" title="Permalink to this headline">¶</a></h2>
 <p><strong>1.</strong> Log into the Discovery Environment <a class="reference external" href="https://de.cyverse.org">https://de.cyverse.org</a></p>
-<p><strong>2a.</strong> Click one of our quick launch buttons:</p>
+<p><strong>2.</strong> Click one of our quick launch buttons:</p>
 <blockquote>
 <div><ul class="simple">
-<li><p>Workspace: <a class="reference external" href="https://de.cyverse.org/de/?type=quick-launch&amp;quick-launch-id=66f5a2d6-04c3-4346-8804-fab350e2f9b8&amp;app-id=55f4f8b0-f552-11ea-80fa-008cfa5ae621"><img alt="workspace-geospatial-latest" src="https://de.cyverse.org/Powered-By-CyVerse-blue.svg" /></a></p></li>
 <li><p>RStudio: <a class="reference external" href="https://de.cyverse.org/de/?type=quick-launch&amp;quick-launch-id=e7383172-dafd-42a2-b539-a67a9b65425e&amp;app-id=6943b4f2-b663-11ea-92c5-008cfa5ae621"><img alt="rstudio-geospatial-3.6.3" src="https://de.cyverse.org/Powered-By-CyVerse-blue.svg" /></a></p></li>
 </ul>
-</div></blockquote>
-<p><strong>2b.</strong> Search using the <a class="reference internal" href="_images/apps_icon.png"><img alt="apps_button" src="_images/apps_icon.png" style="width: 25px; height: 25px;" /></a> ‘Apps’ search bar.</p>
-<blockquote>
-<div><blockquote>
-<div><p>Search for “workspace-geospatial” or “rstudio geospatial” and see what comes up.</p>
-</div></blockquote>
+<p>Or, search using the <a class="reference internal" href="_images/apps_icon.png"><img alt="apps_button" src="_images/apps_icon.png" style="width: 25px; height: 25px;" /></a> ‘Apps’ search bar.</p>
+<p>query “rstudio geospatial” and see what comes up.</p>
 <p><a class="reference internal" href="_images/apps_search.png"><img alt="apps_search" src="_images/apps_search.png" style="width: 400px;" /></a></p>
-<blockquote>
-<div><p>Select the App and a new window should open.</p>
+<p>Or, click the App button and a new window should open.</p>
+<p>Under “My Apps” section click on the “My Communities” section and “NEON” Group should appear</p>
 </div></blockquote>
-</div></blockquote>
-<p><strong>2c.</strong> Under “My Apps” click on the “My Communities” and “NEON” Group</p>
-<p><strong>3a.</strong> In the App Window you have a few options.</p>
+<p><strong>3.</strong> In the App Window you have a few options.</p>
 <blockquote>
-<div><p><code class="docutils literal notranslate"><span class="pre">Analysis</span> <span class="pre">Name</span></code> - you can change the name of the analysis if you like, the default name is typically <code class="docutils literal notranslate"><span class="pre">&lt;the-app-name&gt;_analysis1</span></code></p>
+<div><p><strong>i.</strong> <code class="docutils literal notranslate"><span class="pre">Analysis</span> <span class="pre">Name</span></code> - you can change the name of the analysis if you like, the default name is typically <code class="docutils literal notranslate"><span class="pre">&lt;the-app-name&gt;_analysis1</span></code></p>
 <p>Your analysis will run, and when it completes, it will write any data that you have in the WORKING DIRECTORY of the container back to the Data Store in your Analyses folder, e.g. <code class="docutils literal notranslate"><span class="pre">/iplant/home/&lt;username&gt;/analyses/&lt;the-app-name&gt;_analysis1-&lt;DATE-TIME-of-job-starting&gt;</span></code></p>
-</div></blockquote>
-<p><strong>3b.</strong> The second section is <code class="docutils literal notranslate"><span class="pre">Input</span> <span class="pre">Data</span></code> and has options for adding (1) a folder, (2) a single file, or (3) multiple files.</p>
-<blockquote>
-<div><p>For our use case, you do not need to add any data before launching the app.</p>
-</div></blockquote>
-<p><strong>3c.</strong> The third section is <code class="docutils literal notranslate"><span class="pre">Resource</span> <span class="pre">Requirements</span></code>, again you can leave the default settings, or you can modify them.</p>
-<blockquote>
-<div><p>You can set the <code class="docutils literal notranslate"><span class="pre">Minimum</span> <span class="pre">CPU</span></code> to the minimum number of cores your app requires. If you do not select anything, the app will still be able to use multiple cores on the shared node on which it is deployed.</p>
+<p><strong>ii.</strong> The second section is <code class="docutils literal notranslate"><span class="pre">Input</span> <span class="pre">Data</span></code> and has options for adding (1) a folder, (2) a single file, or (3) multiple files.</p>
+<p>For our use case, you do not need to add any data before launching the app.</p>
+<p><strong>iii.</strong> The third section is <code class="docutils literal notranslate"><span class="pre">Resource</span> <span class="pre">Requirements</span></code>, again you can leave the default settings, or you can modify them.</p>
+<p>You can set the <code class="docutils literal notranslate"><span class="pre">Minimum</span> <span class="pre">CPU</span></code> to the minimum number of cores your app requires. If you do not select anything, the app will still be able to use multiple cores on the shared node on which it is deployed.</p>
 <p>You can set the <code class="docutils literal notranslate"><span class="pre">Minimum</span> <span class="pre">RAM</span></code> to the minimum number of GB of RAM you think your app requires.</p>
 <p>You can set the <code class="docutils literal notranslate"><span class="pre">Minimum</span> <span class="pre">Disk</span> <span class="pre">Space</span></code> to the minimum amount of scratch space you think your data will need.</p>
-</div></blockquote>
-<p><strong>3d.</strong> After you’ve set the analysis name, input data, and resource requirements, click <code class="docutils literal notranslate"><span class="pre">Launch</span> <span class="pre">Analysis</span></code></p>
+<p><strong>iv.</strong> After you’ve set the analysis name, input data, and resource requirements, click <code class="docutils literal notranslate"><span class="pre">Launch</span> <span class="pre">Analysis</span></code></p>
 <blockquote>
 <div><p>Watch closely, you’ll see a notification at the top of your screen and in the Bell icon in the upper right.</p>
 </div></blockquote>
-<p><strong>4a.</strong> Open the <a class="reference internal" href="_images/analyses_icon.png"><img alt="analyses_button" src="_images/analyses_icon.png" style="width: 25px; height: 25px;" /></a> icon labeled “Analyses” to view your running analysis.</p>
+</div></blockquote>
+<p><strong>4.</strong> Open the <a class="reference internal" href="_images/analyses_icon.png"><img alt="analyses_button" src="_images/analyses_icon.png" style="width: 25px; height: 25px;" /></a> icon labeled “Analyses” to view your running analysis.</p>
 <blockquote>
 <div><p>Look for your App Name. See the square icon with an arrow pointed up to the right? Click on that icon and a new tab will open.</p>
 <p><a class="reference internal" href="_images/analyses_window.png"><img alt="analyses_window" src="_images/analyses_window.png" style="width: 400px;" /></a></p>
+<p>Alternately, click the Bell icon in the upper right to see your notifications, you should see ‘Access your running analysis here.’ as an option. Click on that link and a new tab will open.</p>
 </div></blockquote>
-<p><strong>4b.</strong> Alternately, click the Bell icon in the upper right to see your notifications, you should see ‘Access your running analysis here.’ as an option. Click on that link and a new tab will open.</p>
 <p><strong>5.</strong> Having clicked on either of the hyperlinked icons in Step 4 should result in a new tab opening in your browser.</p>
 <blockquote>
 <div><p>Your Discovery Environment Browser tab should still be open.</p>
@@ -278,7 +267,7 @@
 <li><p>Ask us for help:
 click <a class="reference internal" href="_images/intercom.png"><img alt="Intercom" src="_images/intercom.png" style="width: 25px; height: 25px;" /></a> on the lower right-hand side of the page</p></li>
 <li><p>Report an issue or submit a change:
-<a href="FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX" target="blank">Github Repo Link</a></p></li>
+<a href="https://github.com/CyVerse-learning-materials/2020-neon-aop-workshop" target="blank">Github Repo Link</a></p></li>
 <li><p>Send feedback: <a class="reference external" href="mailto:learning&#37;&#52;&#48;CyVerse&#46;org">learning<span>&#64;</span>CyVerse<span>&#46;</span>org</a></p></li>
 </ul>
 <hr class="docutils" />
@@ -295,7 +284,7 @@ click <a class="reference internal" href="_images/intercom.png"><img alt="Interc
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="step3.html" class="btn btn-neutral float-right" title="NEON Shiny App" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="step5.html" class="btn btn-neutral float-right" title="Version Control with GitHub" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="step1.html" class="btn btn-neutral float-left" title="Discovery Environment" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
